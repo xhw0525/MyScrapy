@@ -1,0 +1,11 @@
+<a href="http://news.baidu.com" name="tj_trnews" class="mnav">新闻</a>
+<a href="https://www.hao123.com" name="tj_trhao123" class="mnav">hao123</a>
+<a href="http://map.baidu.com" name="tj_trmap" class="mnav">地图</a>
+<a href="http://v.baidu.com" name="tj_trvideo" class="mnav">视频</a>
+<a href="http://tieba.baidu.com" name="tj_trtieba" class="mnav">贴吧</a>
+<a href="http://www.baidu.com/bdorz/login.gif?login&amp;tpl=mn&amp;u=http%3A%2F%2Fwww.baidu.com%2f%3fbdorz_come%3d1" name="tj_login" class="lb">登录</a>
+<a href="//www.baidu.com/more/" name="tj_briicon" class="bri" style="display: block;">更多产品</a>
+<a href="http://home.baidu.com">关于百度</a>
+<a href="http://ir.baidu.com">About Baidu</a>
+<a href="http://www.baidu.com/duty/">使用百度前必读</a>
+<a href="http://jianyi.baidu.com/" class="cp-feedback">意见反馈</a>
