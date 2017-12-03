@@ -1,17 +1,22 @@
 # -*- coding: utf-8 -*-
 import scrapy
+from scrapy import Request
 from MyScrapy.items import MyscrapyItem
 
 
 class HahaSpider(scrapy.Spider):
     name = 'haha'
-    allowed_domains = ['www.baidu.com']
+    # allowed_domains = ['www.baidu.com']
     start_urls = ['https://www.baidu.com']
 
     def parse(self, response):
-        lista = response.xpath("//a")
 
-        for a in lista:
+        print('--可根据url做一些事情--'+response.url)
+
+        lista = response.xpath("//a")
+        for alink in lista:
             item = MyscrapyItem()
-            item["a"] = a.extract().encode("utf-8")
+            item['a'] = alink.extract()
+            item['name'] = alink.extract()
             yield item
+            # yield Request("http://hahahahfah.com", callback=self.parse)

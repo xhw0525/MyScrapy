@@ -11,5 +11,10 @@ import scrapy
 class MyscrapyItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
+    name = scrapy.Field()
     a = scrapy.Field()
     pass
+
+class JieKouItem(scrapy.Item):
+
+    name = scrapy.Field()
