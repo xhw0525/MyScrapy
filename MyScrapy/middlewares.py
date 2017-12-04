@@ -6,6 +6,10 @@
 # http://doc.scrapy.org/en/latest/topics/spider-middleware.html
 
 from scrapy import signals
+from selenium import webdriver
+from scrapy.http import HtmlResponse
+
+
 
 
 class MyscrapySpiderMiddleware(object):
@@ -54,3 +58,17 @@ class MyscrapySpiderMiddleware(object):
 
     def spider_opened(self, spider):
         spider.logger.info('Spider opened: %s' % spider.name)
+
+
+
+#下载中间件
+class MyCustomDownloaderMiddleware(object):
+    @classmethod
+    def process_request(cls, request, spider):
+        if request.meta.has_key('PhantomJS') or True:
+            print '------------------------>>>>>>>>>>>>>>>'
+            driver = webdriver.PhantomJS('/Users/xhw/PythonU/phantomjs-2.1.1-macosx/bin/phantomjs')
+            driver.get(request.url)
+            content = driver.page_source.encode('utf-8')
+            driver.quit()
+            return HtmlResponse(request.url, encoding='utf-8', body=content, request=request)
