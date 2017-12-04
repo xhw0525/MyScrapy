@@ -14,18 +14,18 @@ browser.set_page_load_timeout(10)  ##设置超时时间
 
 
 browser.get('https://work.bugtags.com/login.html')
-user_name = browser.find_element_by_id('login_email')
-user_name.send_keys('1982700252@qq.com')
-user_id = browser.find_element_by_id('login_pwd')
-user_id.send_keys('Zx.666555')
+# user_name = browser.find_element_by_id('login_email')
+# user_name.send_keys('1982700252@qq.com')
+# user_id = browser.find_element_by_id('login_pwd')
+# user_id.send_keys('Zx.666555')
+#
+#
+# btn = browser.find_element_by_id('btn_login')
+# btn.click()
 
+time.sleep(1)
 
-btn = browser.find_element_by_id('btn_login')
-btn.click()
-
-time.sleep(10)
-
-print(browser.redirectURL)
+print(browser.page_source)
 
 # print(browser.find_element_by_class_name('c-flag-0').get_attribute('class'))
 

@@ -8,6 +8,8 @@
 from scrapy import signals
 from selenium import webdriver
 from scrapy.http import HtmlResponse
+import time
+from scrapy.http import Response
 
 
 
@@ -60,15 +62,37 @@ class MyscrapySpiderMiddleware(object):
         spider.logger.info('Spider opened: %s' % spider.name)
 
 
+#----------------------------------------------------------------------------------------------------------------------
+
+
 
 #下载中间件
-class MyCustomDownloaderMiddleware(object):
-    @classmethod
-    def process_request(cls, request, spider):
-        if request.meta.has_key('PhantomJS') or True:
-            print '------------------------>>>>>>>>>>>>>>>'
-            driver = webdriver.PhantomJS('/Users/xhw/PythonU/phantomjs-2.1.1-macosx/bin/phantomjs')
-            driver.get(request.url)
-            content = driver.page_source.encode('utf-8')
-            driver.quit()
-            return HtmlResponse(request.url, encoding='utf-8', body=content, request=request)
+# class MyCustomDownloaderMiddleware(object):
+#     @classmethod
+#     def process_request(cls, request, spider):
+#         if request.meta.has_key('PhantomJS'):
+#             print '-------->>>>>>>>>>>MyCustomDownloaderMiddleware----------->>>>>process_request'
+#             service_args = []
+#             service_args.append('--load-images=no')  ##关闭图片加载
+#             # service_args.append('--disk-cache=yes')  ##开启缓存
+#             service_args.append('--ignore-ssl-errors=true')  ##忽略https错误
+#             browser = webdriver.PhantomJS('/Users/xhw/PythonU/phantomjs-2.1.1-macosx/bin/phantomjs',
+#                                           service_args=service_args)
+#             browser.implicitly_wait(3)  ##设置超时时间
+#             browser.set_page_load_timeout(3)  ##设置超时时间
+#
+#
+#             browser.get(request.url)
+#             # 妹的 browser好像只提供获取源代码的属性  无法得到js执行过后的html?
+#             content = browser.page_source.encode('utf-8')
+#
+#             # browser.get('about:blank')  # 爬坑: 重用时, 一次请求完 重置状态
+#             browser.close()
+#             browser.quit()
+#             # return Response(request.url, body=content, request=request)
+#
+#             return HtmlResponse(request.url, encoding='utf-8', body=content, request=request)
+#
+#         else:
+#             return None
+
