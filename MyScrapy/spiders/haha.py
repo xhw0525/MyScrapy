@@ -1,6 +1,8 @@
 # -*- coding: utf-8 -*-
 import scrapy
 from scrapy import Request
+
+import MyScrapy.browser as Browser
 from MyScrapy.items import MyscrapyItem
 
 
@@ -17,9 +19,6 @@ class HahaSpider(scrapy.Spider):
             yield request
 
     def parse(self, response):
-
-        print('--可根据url做一些事情--'+response.url)
-
         lista = response.xpath("//a")
         for alink in lista:
             item = MyscrapyItem()
@@ -31,3 +30,8 @@ class HahaSpider(scrapy.Spider):
 
             yield item
             # yield Request("http://hahahahfah.com", callback=self.parse)
+
+    @staticmethod
+    def close(spider, reason):
+        Browser.instance.quit()
+        return scrapy.Spider.close(spider, reason)

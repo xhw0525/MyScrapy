@@ -6,11 +6,9 @@
 # http://doc.scrapy.org/en/latest/topics/spider-middleware.html
 
 from scrapy import signals
-from selenium import webdriver
 from scrapy.http import HtmlResponse
-import scrapy
-import time
-from scrapy.http import Response
+
+import MyScrapy.browser as Browser
 
 
 class MyscrapySpiderMiddleware(object):
@@ -62,14 +60,6 @@ class MyscrapySpiderMiddleware(object):
 
 
 # ----------------------------------------------------------------------------------------------------------------------
-# 全局使用一个brower不知道会不会有问题?
-
-option = webdriver.FirefoxOptions()
-option.add_argument("-headless")
-browser = webdriver.Firefox(options=option)
-browser.set_window_size(1200, 800)
-browser.implicitly_wait(5)  ##设置超时时间
-browser.set_page_load_timeout(5)  ##设置超时时间
 
 # 下载中间件
 class MyCustomDownloaderMiddleware(object):
@@ -78,19 +68,16 @@ class MyCustomDownloaderMiddleware(object):
     def process_request(cls, request, spider):
 
         if request.meta.has_key('Firefox'):
-            global browser
 
-            browser.get(request.url)
-            content = browser.page_source.encode('utf-8')
+            Browser.instance.get(request.url)
+            content = Browser.instance.page_source.encode('utf-8')
             # browser.get('about:blank')  # 爬坑: 重用时, 一次请求完 重置状态
-            browser.close()
+            # browser.close()
             # cls.browser.quit()
             # return Response(request.url, body=content, request=request)
             return HtmlResponse(request.url, encoding='utf-8', body=content, request=request)
         else:
             return None  # 返回 None, 交给下一个中间件  或者loader 处理
 
-        #上面process_request的 response 不从这个方法过?
-        def process_response(request, response, spider):
-            yield response
+
 
