@@ -18,7 +18,7 @@ class MyscrapyFilePipeline(object):
         self.f = open(os.getcwd() + "/result/" + self.__class__.__name__ + ".txt", "w+")
 
     def process_item(self, item, spider):
-        if type(spider) is HahaSpider:
+        if spider.name == 'haha':
             self.f.write(item["a"] + '\n')
         return item
 
@@ -32,7 +32,7 @@ class MyscrapyDBPipeline(object):
         self.conn = sqlite3.connect("db.sqlite3")
 
     def process_item(self, item, spider):
-        if type(spider) is HahaSpider:
+        if spider.name == 'haha':
             cursor = self.conn.cursor()
             sqlstr = """insert into biaoqian (name, a) VALUES (?, ?)"""
             # param = (unicode(item['name']), unicode(item['a']))

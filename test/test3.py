@@ -18,11 +18,11 @@ browser.get('http://devdoc.xiaoyouapp.cn/publics/apiList')
 
 # browser.save_screenshot('截图.png')
 
-list = browser.find_elements_by_css_selector('div')
-for li in list:
-    print li.text
+# list = browser.find_elements_by_css_selector('div')
+# for li in list:
+#     print li.text
 
-# print(browser.find_element_by_class_name('c-flag-0').get_attribute('class'))
+print(browser.page_source)
 
 browser.get('about:blank') #爬坑: 一次请求完 重置状态
 print(time.time())

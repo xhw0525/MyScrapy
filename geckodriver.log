@@ -1,0 +1,351 @@
+1512451806877	geckodriver	INFO	geckodriver 0.19.1
+1512451806884	geckodriver	INFO	Listening on 127.0.0.1:56979
+1512451810071	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-profile" "/var/folders/y6/_nhz30ns27d2sk1yppf87g3h0000gn/T/rust_mozprofile.BTbaUJSl1wVM"
+*** You are running in headless mode.
+1512451810708	Marionette	INFO	Enabled via --marionette
+2017-12-05 13:30:11.407 plugin-container[5833:233929] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xa03f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1512451811741	Marionette	INFO	Listening on port 56988
+1512451812311	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512451812353	Marionette	DEBUG	Register listener.js for window 2147483649
+1512451812428	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512451812512	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512451812512	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_mac_82990d4.js, line 4: ReferenceError: c is not defined
+1512451812711	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.baidu.com/"
+1512451812764	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.baidu.com/"
+1512455242561	geckodriver	INFO	geckodriver 0.19.1
+1512455242569	geckodriver	INFO	Listening on 127.0.0.1:58018
+1512455243009	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-profile" "/var/folders/y6/_nhz30ns27d2sk1yppf87g3h0000gn/T/rust_mozprofile.1Z7Mp1MdqjrU"
+*** You are running in headless mode.
+1512455243637	Marionette	INFO	Enabled via --marionette
+2017-12-05 14:27:24.515 plugin-container[9859:324728] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xa23f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1512455244920	Marionette	INFO	Listening on port 58025
+1512455244962	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512455245007	Marionette	DEBUG	Register listener.js for window 2147483649
+1512455245209	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512455245383	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512455245384	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_mac_82990d4.js, line 4: ReferenceError: c is not defined
+1512455245569	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.baidu.com/"
+1512455245638	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.baidu.com/"
+1512455279415	geckodriver	INFO	geckodriver 0.19.1
+1512455279419	geckodriver	INFO	Listening on 127.0.0.1:58069
+1512455279807	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-profile" "/var/folders/y6/_nhz30ns27d2sk1yppf87g3h0000gn/T/rust_mozprofile.7172CYAxhkWf"
+*** You are running in headless mode.
+1512455280274	Marionette	INFO	Enabled via --marionette
+2017-12-05 14:28:01.005 plugin-container[9879:325954] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xa03f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1512455281332	Marionette	INFO	Listening on port 58076
+1512455281463	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512455281511	Marionette	DEBUG	Register listener.js for window 2147483649
+1512455281644	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512455281729	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512455281730	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_mac_82990d4.js, line 4: ReferenceError: c is not defined
+1512455281933	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.baidu.com/"
+1512455282064	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.baidu.com/"
+1512455293897	geckodriver	INFO	geckodriver 0.19.1
+1512455293900	geckodriver	INFO	Listening on 127.0.0.1:58114
+1512455294301	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-profile" "/var/folders/y6/_nhz30ns27d2sk1yppf87g3h0000gn/T/rust_mozprofile.ZgR80YVXAcZa"
+*** You are running in headless mode.
+1512455294784	Marionette	INFO	Enabled via --marionette
+2017-12-05 14:28:15.513 plugin-container[9898:326752] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xa143, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1512455295902	Marionette	INFO	Listening on port 58121
+1512455295944	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512455296016	Marionette	DEBUG	Register listener.js for window 2147483649
+1512455296204	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512455296390	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512455296390	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_mac_82990d4.js, line 4: ReferenceError: c is not defined
+1512455296578	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.baidu.com/"
+1512455296614	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.baidu.com/"
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 9898, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+1512455325296	geckodriver	INFO	geckodriver 0.19.1
+1512455325305	geckodriver	INFO	Listening on 127.0.0.1:58157
+1512455325689	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-profile" "/var/folders/y6/_nhz30ns27d2sk1yppf87g3h0000gn/T/rust_mozprofile.xL2DmptOVjZo"
+*** You are running in headless mode.
+1512455326135	Marionette	INFO	Enabled via --marionette
+2017-12-05 14:28:46.853 plugin-container[9916:327783] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xa03f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1512455327175	Marionette	INFO	Listening on port 58164
+1512455327325	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512455327370	Marionette	DEBUG	Register listener.js for window 2147483649
+1512455327429	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512455327552	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512455327553	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_mac_82990d4.js, line 4: ReferenceError: c is not defined
+1512455327951	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.baidu.com/"
+1512455328024	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.baidu.com/"
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+1512455392289	geckodriver	INFO	geckodriver 0.19.1
+1512455392300	geckodriver	INFO	Listening on 127.0.0.1:58203
+1512455392692	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-profile" "/var/folders/y6/_nhz30ns27d2sk1yppf87g3h0000gn/T/rust_mozprofile.v8IFRlxyucge"
+*** You are running in headless mode.
+1512455393308	Marionette	INFO	Enabled via --marionette
+2017-12-05 14:29:54.189 plugin-container[9974:330173] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xa043, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1512455394738	Marionette	INFO	Listening on port 58210
+1512455394956	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512455394997	Marionette	DEBUG	Register listener.js for window 2147483649
+1512455395057	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512455395141	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512455395141	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_mac_82990d4.js, line 4: ReferenceError: c is not defined
+1512455395382	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.baidu.com/"
+1512455395417	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.baidu.com/"
+1512455415732	geckodriver	INFO	geckodriver 0.19.1
+1512455415735	geckodriver	INFO	Listening on 127.0.0.1:58245
+1512455416130	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-profile" "/var/folders/y6/_nhz30ns27d2sk1yppf87g3h0000gn/T/rust_mozprofile.lkk6L7aDtp2O"
+*** You are running in headless mode.
+1512455416570	Marionette	INFO	Enabled via --marionette
+2017-12-05 14:30:17.296 plugin-container[9994:331128] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xa03f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1512455417709	Marionette	INFO	Listening on port 58252
+1512455417819	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512455417866	Marionette	DEBUG	Register listener.js for window 2147483649
+1512455417954	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512455418015	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512455418024	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_mac_82990d4.js, line 4: ReferenceError: c is not defined
+1512455418194	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.baidu.com/"
+1512455418326	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.baidu.com/"
+1512455466136	geckodriver	INFO	geckodriver 0.19.1
+1512455466151	geckodriver	INFO	Listening on 127.0.0.1:58288
+1512455466545	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-profile" "/var/folders/y6/_nhz30ns27d2sk1yppf87g3h0000gn/T/rust_mozprofile.hfwERw7wzSdG"
+*** You are running in headless mode.
+1512455466998	Marionette	INFO	Enabled via --marionette
+2017-12-05 14:31:07.768 plugin-container[10018:332979] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xa043, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1512455468207	Marionette	INFO	Listening on port 58296
+1512455468294	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512455468348	Marionette	DEBUG	Register listener.js for window 2147483649
+1512455468458	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512455468544	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512455468544	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_mac_82990d4.js, line 4: ReferenceError: c is not defined
+1512455468756	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.baidu.com/"
+1512455468799	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.baidu.com/"
+1512455486200	geckodriver	INFO	geckodriver 0.19.1
+1512455486206	geckodriver	INFO	Listening on 127.0.0.1:58329
+1512455486607	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-profile" "/var/folders/y6/_nhz30ns27d2sk1yppf87g3h0000gn/T/rust_mozprofile.FNz9SvcvphxE"
+*** You are running in headless mode.
+1512455487142	Marionette	INFO	Enabled via --marionette
+2017-12-05 14:31:27.901 plugin-container[10035:333967] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xa03f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1512455488296	Marionette	INFO	Listening on port 58336
+1512455488358	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512455488416	Marionette	DEBUG	Register listener.js for window 2147483649
+1512455488586	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512455488698	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512455488699	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_mac_82990d4.js, line 4: ReferenceError: c is not defined
+1512455488977	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.baidu.com/"
+1512455489225	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.baidu.com/"
+1512455528207	geckodriver	INFO	geckodriver 0.19.1
+1512455528212	geckodriver	INFO	Listening on 127.0.0.1:58377
+1512455528613	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-profile" "/var/folders/y6/_nhz30ns27d2sk1yppf87g3h0000gn/T/rust_mozprofile.UiKyQ7O7u478"
+*** You are running in headless mode.
+1512455529067	Marionette	INFO	Enabled via --marionette
+2017-12-05 14:32:09.742 plugin-container[10056:335570] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9f43, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1512455530030	Marionette	INFO	Listening on port 58384
+1512455530050	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512455530106	Marionette	DEBUG	Register listener.js for window 2147483649
+1512455530263	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512455530332	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512455530332	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_mac_82990d4.js, line 4: ReferenceError: c is not defined
+1512455530614	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.baidu.com/"
+1512455530648	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.baidu.com/"
+1512455687806	geckodriver	INFO	geckodriver 0.19.1
+1512455687813	geckodriver	INFO	Listening on 127.0.0.1:58508
+1512455688213	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-profile" "/var/folders/y6/_nhz30ns27d2sk1yppf87g3h0000gn/T/rust_mozprofile.XJCuQ36bA2Fl"
+*** You are running in headless mode.
+1512455688835	Marionette	INFO	Enabled via --marionette
+2017-12-05 14:34:49.646 plugin-container[10085:340657] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xa03f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1512455690006	Marionette	INFO	Listening on port 58515
+1512455690171	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512455690216	Marionette	DEBUG	Register listener.js for window 2147483649
+1512455690338	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512455690553	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512455690553	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_mac_82990d4.js, line 4: ReferenceError: c is not defined
+1512455690722	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.baidu.com/"
+1512455690786	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.baidu.com/"
+1512456366776	geckodriver	INFO	geckodriver 0.19.1
+1512456366786	geckodriver	INFO	Listening on 127.0.0.1:58730
+1512456367202	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-profile" "/var/folders/y6/_nhz30ns27d2sk1yppf87g3h0000gn/T/rust_mozprofile.KXQ6fEsW2iAI"
+*** You are running in headless mode.
+1512456367793	Marionette	INFO	Enabled via --marionette
+2017-12-05 14:46:08.604 plugin-container[10607:358130] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xa03f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1512456368987	Marionette	INFO	Listening on port 58738
+1512456369147	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512456369197	Marionette	DEBUG	Register listener.js for window 2147483649
+1512456369281	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512456369379	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512456369379	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_mac_82990d4.js, line 4: ReferenceError: c is not defined
+1512456369587	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.baidu.com/"
+1512456369839	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.baidu.com/"
+1512456420941	geckodriver	INFO	geckodriver 0.19.1
+1512456420944	geckodriver	INFO	Listening on 127.0.0.1:58775
+1512456421335	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-profile" "/var/folders/y6/_nhz30ns27d2sk1yppf87g3h0000gn/T/rust_mozprofile.zqFLcVxWh8Z2"
+*** You are running in headless mode.
+1512456421749	Marionette	INFO	Enabled via --marionette
+2017-12-05 14:47:02.435 plugin-container[10635:359844] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xa13f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1512456422813	Marionette	INFO	Listening on port 58782
+1512456422977	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512456423026	Marionette	DEBUG	Register listener.js for window 2147483649
+1512456423081	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512456423381	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512456423381	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_mac_82990d4.js, line 4: ReferenceError: c is not defined
+1512456423550	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.baidu.com/"
+1512456423677	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.baidu.com/"
+1512456435139	geckodriver	INFO	geckodriver 0.19.1
+1512456435143	geckodriver	INFO	Listening on 127.0.0.1:58814
+1512456435536	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-profile" "/var/folders/y6/_nhz30ns27d2sk1yppf87g3h0000gn/T/rust_mozprofile.EqvI4xTkOYvR"
+*** You are running in headless mode.
+1512456436005	Marionette	INFO	Enabled via --marionette
+2017-12-05 14:47:16.750 plugin-container[10652:360687] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xa03f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1512456437102	Marionette	INFO	Listening on port 58821
+1512456437182	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512456437228	Marionette	DEBUG	Register listener.js for window 2147483649
+1512456437307	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512456437409	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512456437410	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_mac_82990d4.js, line 4: ReferenceError: c is not defined
+1512456437614	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.baidu.com/"
+1512456437671	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.baidu.com/"
+1512456464498	geckodriver	INFO	geckodriver 0.19.1
+1512456464502	geckodriver	INFO	Listening on 127.0.0.1:58856
+1512456464894	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-profile" "/var/folders/y6/_nhz30ns27d2sk1yppf87g3h0000gn/T/rust_mozprofile.JFQ3cB7RcKPU"
+*** You are running in headless mode.
+1512456465320	Marionette	INFO	Enabled via --marionette
+2017-12-05 14:47:45.991 plugin-container[10675:361832] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xa03f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1512456466332	Marionette	INFO	Listening on port 58863
+1512456466541	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512456466595	Marionette	DEBUG	Register listener.js for window 2147483649
+1512456466708	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512456466835	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512456466836	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_mac_82990d4.js, line 4: ReferenceError: c is not defined
+1512456467016	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.baidu.com/"
+1512456467072	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.baidu.com/"
+1512456516271	geckodriver	INFO	geckodriver 0.19.1
+1512456516275	geckodriver	INFO	Listening on 127.0.0.1:58907
+1512456516663	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-profile" "/var/folders/y6/_nhz30ns27d2sk1yppf87g3h0000gn/T/rust_mozprofile.1tfvrjri6R1K"
+*** You are running in headless mode.
+1512456517062	Marionette	INFO	Enabled via --marionette
+2017-12-05 14:48:37.726 plugin-container[10697:363491] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xa23f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1512456518021	Marionette	INFO	Listening on port 58914
+1512456518102	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512456518153	Marionette	DEBUG	Register listener.js for window 2147483649
+1512456518246	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512456518339	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512456518339	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_mac_82990d4.js, line 4: ReferenceError: c is not defined
+1512456518759	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.baidu.com/"
+1512456518818	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.baidu.com/"
+1512456609261	geckodriver	INFO	geckodriver 0.19.1
+1512456609265	geckodriver	INFO	Listening on 127.0.0.1:58950
+1512456609663	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-profile" "/var/folders/y6/_nhz30ns27d2sk1yppf87g3h0000gn/T/rust_mozprofile.qy3bbhCHWXkF"
+*** You are running in headless mode.
+1512456610118	Marionette	INFO	Enabled via --marionette
+2017-12-05 14:50:10.828 plugin-container[10727:366032] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xa23f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1512456611146	Marionette	INFO	Listening on port 58957
+1512456611293	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512456611337	Marionette	DEBUG	Register listener.js for window 2147483649
+1512456611415	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512456611501	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512456611502	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_mac_82990d4.js, line 4: ReferenceError: c is not defined
+1512456611666	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.baidu.com/"
+1512456611702	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.baidu.com/"
+1512456632160	geckodriver	INFO	geckodriver 0.19.1
+1512456632163	geckodriver	INFO	Listening on 127.0.0.1:58987
+1512456632553	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-profile" "/var/folders/y6/_nhz30ns27d2sk1yppf87g3h0000gn/T/rust_mozprofile.OUJ173rRh85A"
+*** You are running in headless mode.
+1512456632966	Marionette	INFO	Enabled via --marionette
+2017-12-05 14:50:33.658 plugin-container[10745:367133] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xa23f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1512456633961	Marionette	INFO	Listening on port 58994
+1512456633989	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512456634050	Marionette	DEBUG	Register listener.js for window 2147483649
+1512456634222	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512456634416	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512456634416	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_mac_82990d4.js, line 4: ReferenceError: c is not defined
+1512456634576	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.baidu.com/"
+1512456634618	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.baidu.com/"
+1512458125622	geckodriver	INFO	geckodriver 0.19.1
+1512458125628	geckodriver	INFO	Listening on 127.0.0.1:59294
+1512458126035	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-profile" "/var/folders/y6/_nhz30ns27d2sk1yppf87g3h0000gn/T/rust_mozprofile.53y4IcFtMljE"
+*** You are running in headless mode.
+1512458126859	Marionette	INFO	Enabled via --marionette
+2017-12-05 15:15:27.773 plugin-container[10895:390349] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xa03f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1512458128221	Marionette	INFO	Listening on port 59301
+1512458128281	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512458128344	Marionette	DEBUG	Register listener.js for window 2147483649
+1512458128673	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512458129070	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512458129071	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_mac_82990d4.js, line 4: ReferenceError: c is not defined
+1512458129387	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.baidu.com/"
+1512458129479	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.baidu.com/"
+1512458229942	geckodriver	INFO	geckodriver 0.19.1
+1512458229946	geckodriver	INFO	Listening on 127.0.0.1:59356
+1512458230344	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-profile" "/var/folders/y6/_nhz30ns27d2sk1yppf87g3h0000gn/T/rust_mozprofile.ZPGylqYsrNnZ"
+*** You are running in headless mode.
+1512458230782	Marionette	INFO	Enabled via --marionette
+2017-12-05 15:17:11.525 plugin-container[10931:392989] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xa03f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1512458231824	Marionette	INFO	Listening on port 59363
+1512458231979	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512458232026	Marionette	DEBUG	Register listener.js for window 2147483649
+1512458278645	geckodriver	INFO	geckodriver 0.19.1
+1512458278649	geckodriver	INFO	Listening on 127.0.0.1:59391
+1512458279044	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-profile" "/var/folders/y6/_nhz30ns27d2sk1yppf87g3h0000gn/T/rust_mozprofile.23qzk4L5xC6p"
+*** You are running in headless mode.
+1512458279465	Marionette	INFO	Enabled via --marionette
+2017-12-05 15:18:00.214 plugin-container[10955:394153] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xa243, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1512458280582	Marionette	INFO	Listening on port 59398
+1512458280683	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512458280731	Marionette	DEBUG	Register listener.js for window 2147483649
+1512458378892	geckodriver	INFO	geckodriver 0.19.1
+1512458378896	geckodriver	INFO	Listening on 127.0.0.1:59432
+1512458379301	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-profile" "/var/folders/y6/_nhz30ns27d2sk1yppf87g3h0000gn/T/rust_mozprofile.tc3e3DLxpFiE"
+*** You are running in headless mode.
+1512458379778	Marionette	INFO	Enabled via --marionette
+2017-12-05 15:19:40.514 plugin-container[10988:396530] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xa23f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1512458380889	Marionette	INFO	Listening on port 59439
+1512458380964	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512458381013	Marionette	DEBUG	Register listener.js for window 2147483649
+1512458381223	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512458381355	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512458381356	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_mac_82990d4.js, line 4: ReferenceError: c is not defined
+1512458381780	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.baidu.com/"
+1512458381853	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.baidu.com/"
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x150083,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x150083,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down

@@ -16,5 +16,5 @@ class MyscrapyItem(scrapy.Item):
     pass
 
 class JieKouItem(scrapy.Item):
-
     name = scrapy.Field()
+    url = scrapy.Field()
