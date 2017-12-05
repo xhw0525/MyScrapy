@@ -13,7 +13,7 @@ BOT_NAME = 'MyScrapy'
 
 SPIDER_MODULES = ['MyScrapy.spiders']
 NEWSPIDER_MODULE = 'MyScrapy.spiders'
-
+IMAGES_STORE = '/Users/xhw/PycharmProjects/MyScrapy/media/images/'
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 USER_AGENT = 'Mozilla/5.0 (X11; U; Linux x86_64; zh-CN; rv:1.9.2.10) Gecko/20100922 Ubuntu/10.10 (maverick) Firefox/3.6.10'
@@ -23,7 +23,7 @@ USER_AGENT = 'Mozilla/5.0 (X11; U; Linux x86_64; zh-CN; rv:1.9.2.10) Gecko/20100
 ROBOTSTXT_OBEY = False
 
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
-CONCURRENT_REQUESTS = 30
+CONCURRENT_REQUESTS = 5
 
 # Configure a delay for requests for the same website (default: 0)
 # See http://scrapy.readthedocs.org/en/latest/topics/settings.html#download-delay
@@ -69,6 +69,8 @@ ITEM_PIPELINES = {
     # 'MyScrapy.pipelines.MyscrapyPipeline': 300,
     # 'MyScrapy.pipelines.MyscrapyFilePipeline': 400,
     'MyScrapy.pipelines.MyscrapyDBPipeline': 300,
+    'MyScrapy.pipelines.MyImagesPipeline': 301,
+
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)

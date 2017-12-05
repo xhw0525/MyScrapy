@@ -5,7 +5,9 @@
 # Don't forget to add your pipeline to the ITEM_PIPELINES setting
 # See: http://doc.scrapy.org/en/latest/topics/item-pipeline.html
 import sys
-
+from scrapy.pipelines.images import ImagesPipeline
+from scrapy.http import Request
+from MyScrapy.items import ImageaItem
 from MyScrapy.spiders.haha import HahaSpider
 from MyScrapy.spiders import JieKou
 import sqlite3
@@ -44,3 +46,12 @@ class MyscrapyDBPipeline(object):
 
     def close_spider(self, spider):
         self.conn.close()
+
+#//ImagesPipeline 自动下载
+class MyImagesPipeline(ImagesPipeline):
+    def get_media_requests(self, item, info):
+        if type(item) == ImageaItem:
+            yield Request(item['url'])
+        else:
+            yield None
+
