@@ -3,12 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d1ef4000-c6b9-411d-bc4f-030402e19401" name="Default" comment="">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/tmp.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyScrapy/items.py" afterPath="$PROJECT_DIR$/MyScrapy/items.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyScrapy/pipelines.py" afterPath="$PROJECT_DIR$/MyScrapy/pipelines.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyScrapy/settings.py" afterPath="$PROJECT_DIR$/MyScrapy/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyScrapy/spiders/Image.py" afterPath="$PROJECT_DIR$/MyScrapy/spiders/Image.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/geckodriver.log" afterPath="$PROJECT_DIR$/geckodriver.log" />
     </list>
     <ignored mask="*.pyc" />
@@ -73,7 +67,7 @@
         <entry file="file://$PROJECT_DIR$/test/test6.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -617,7 +611,7 @@
     <entry file="file://$PROJECT_DIR$/test/test6.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
         </state>
       </provider>
