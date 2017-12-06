@@ -8,7 +8,7 @@
 from scrapy import signals
 from scrapy.http import HtmlResponse
 
-import MyScrapy.browser as Browser
+from MyScrapy.webdrivers import Webdriver
 
 
 class MyscrapySpiderMiddleware(object):
@@ -69,8 +69,8 @@ class MyCustomDownloaderMiddleware(object):
 
         if request.meta.has_key('Firefox'):
 
-            Browser.instance.get(request.url)
-            content = Browser.instance.page_source.encode('utf-8')
+            Webdriver.get_instance().browser.get(request.url)
+            content = Webdriver.get_instance().browser.page_source.encode('utf-8')
             # browser.get('about:blank')  # 爬坑: 重用时, 一次请求完 重置状态
             # browser.close()
             # cls.browser.quit()

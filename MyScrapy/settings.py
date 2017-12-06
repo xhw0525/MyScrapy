@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-
+import os
 # Scrapy settings for MyScrapy project
 #
 # For simplicity, this file contains only settings considered important or
@@ -13,7 +13,8 @@ BOT_NAME = 'MyScrapy'
 
 SPIDER_MODULES = ['MyScrapy.spiders']
 NEWSPIDER_MODULE = 'MyScrapy.spiders'
-IMAGES_STORE = '/Users/xhw/PycharmProjects/MyScrapy/media/images/'
+
+IMAGES_STORE = os.path.join(os.getcwd(), 'result/images/')
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 USER_AGENT = 'Mozilla/5.0 (X11; U; Linux x86_64; zh-CN; rv:1.9.2.10) Gecko/20100922 Ubuntu/10.10 (maverick) Firefox/3.6.10'

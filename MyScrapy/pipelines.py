@@ -8,10 +8,10 @@ import sys
 from scrapy.pipelines.images import ImagesPipeline
 from scrapy.http import Request
 from MyScrapy.items import ImageaItem
-from MyScrapy.spiders.haha import HahaSpider
-from MyScrapy.spiders import JieKou
 import sqlite3
 import os
+import MyScrapy.settings as Settings
+
 reload(sys)
 sys.setdefaultencoding('utf8')
 
@@ -50,8 +50,13 @@ class MyscrapyDBPipeline(object):
 #//ImagesPipeline 自动下载
 class MyImagesPipeline(ImagesPipeline):
     def get_media_requests(self, item, info):
-        if type(item) == ImageaItem:
+        if type(item) == ImageaItem and item['url'] is not None:
             yield Request(item['url'])
         else:
             yield None
+
+    def item_completed(self, results, item, info):
+        for ok, x in results:
+            if ok:
+                os.rename(Settings.IMAGES_STORE+x['path'], Settings.IMAGES_STORE+x['path']+'hahaha.jpg')
 

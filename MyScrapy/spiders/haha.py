@@ -2,7 +2,7 @@
 import scrapy
 from scrapy import Request
 
-import MyScrapy.browser as Browser
+from MyScrapy.webdrivers import Webdriver
 from MyScrapy.items import MyscrapyItem
 
 
@@ -33,5 +33,5 @@ class HahaSpider(scrapy.Spider):
 
     @staticmethod
     def close(spider, reason):
-        Browser.instance.quit()
+        Webdriver.close()
         return scrapy.Spider.close(spider, reason)

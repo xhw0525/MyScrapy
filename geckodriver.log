@@ -58,3 +58,437 @@ See /usr/include/servers/bootstrap_defs.h for the error codes.
 1512491795514	Marionette	INFO	Listening on port 49529
 1512491796226	Marionette	WARN	TLS certificate errors will be ignored for this session
 1512491796271	Marionette	DEBUG	Register listener.js for window 2147483649
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+1512525689156	geckodriver	INFO	geckodriver 0.19.1
+1512525689164	geckodriver	INFO	Listening on 127.0.0.1:49474
+1512525692276	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-profile" "/var/folders/y6/_nhz30ns27d2sk1yppf87g3h0000gn/T/rust_mozprofile.TyTJfZUiS8Bo"
+*** You are running in headless mode.
+1512525692937	Marionette	INFO	Enabled via --marionette
+2017-12-06 10:01:33.771 plugin-container[1392:25683] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xa23f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1512525694134	Marionette	INFO	Listening on port 49481
+1512525694312	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512525694352	Marionette	DEBUG	Register listener.js for window 2147483649
+1512525694408	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512525694598	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512525694598	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1512525694869	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.budejie.com/pic/"
+1512525695412	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483657"
+JavaScript error: http://cpro.baidustatic.com/cpro/ui/noexpire/js/4.0.1/adClosefeedbackUpgrade.min.js, line 1: TypeError: g is null
+1512525697550	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.budejie.com/pic/"
+1512525697707	Marionette	DEBUG	Received DOM event "beforeunload" for "http://www.budejie.com/pic/"
+1512525697727	Marionette	DEBUG	Received DOM event "pagehide" for "http://www.budejie.com/pic/"
+1512525697728	Marionette	DEBUG	Received DOM event "unload" for "http://www.budejie.com/pic/"
+1512525697738	Marionette	DEBUG	Received DOM event "pageshow" for "http://mpic.spriteapp.cn/profile/20170512115717.jpg"
+1512525697806	Marionette	DEBUG	Received DOM event "beforeunload" for "http://mpic.spriteapp.cn/profile/20170512115717.jpg"
+1512525697813	Marionette	DEBUG	Received DOM event "pagehide" for "http://mpic.spriteapp.cn/profile/20170512115717.jpg"
+1512525697814	Marionette	DEBUG	Received DOM event "unload" for "http://mpic.spriteapp.cn/profile/20170512115717.jpg"
+1512525697825	Marionette	DEBUG	Received DOM event "pageshow" for "http://mpic.spriteapp.cn/ugc/2017/12/04/91bce31ad8d311e7aa1c842b2b4c75ab_1.jpg"
+1512525697852	Marionette	DEBUG	Received DOM event "beforeunload" for "http://mpic.spriteapp.cn/ugc/2017/12/04/91bce31ad8d311e7aa1c842b2b4c75ab_1.jpg"
+1512525697857	Marionette	DEBUG	Received DOM event "pagehide" for "http://mpic.spriteapp.cn/ugc/2017/12/04/91bce31ad8d311e7aa1c842b2b4c75ab_1.jpg"
+1512525697857	Marionette	DEBUG	Received DOM event "unload" for "http://mpic.spriteapp.cn/ugc/2017/12/04/91bce31ad8d311e7aa1c842b2b4c75ab_1.jpg"
+1512525697864	Marionette	DEBUG	Received DOM event "pageshow" for "http://mpic.spriteapp.cn/profile/large/2017/06/15/59429c46ba478_mini.jpg"
+1512525697903	Marionette	DEBUG	Received DOM event "beforeunload" for "http://mpic.spriteapp.cn/profile/large/2017/06/15/59429c46ba478_mini.jpg"
+1512525697913	Marionette	DEBUG	Received DOM event "pagehide" for "http://mpic.spriteapp.cn/profile/large/2017/06/15/59429c46ba478_mini.jpg"
+1512525697913	Marionette	DEBUG	Received DOM event "unload" for "http://mpic.spriteapp.cn/profile/large/2017/06/15/59429c46ba478_mini.jpg"
+1512525697922	Marionette	DEBUG	Received DOM event "pageshow" for "http://mpic.spriteapp.cn/x/640x400/ugc/2017/12/05/5a2628696165c_1.jpg"
+1512525697959	Marionette	DEBUG	Received DOM event "beforeunload" for "http://mpic.spriteapp.cn/x/640x400/ugc/2017/12/05/5a2628696165c_1.jpg"
+1512525697963	Marionette	DEBUG	Received DOM event "pagehide" for "http://mpic.spriteapp.cn/x/640x400/ugc/2017/12/05/5a2628696165c_1.jpg"
+1512525697964	Marionette	DEBUG	Received DOM event "unload" for "http://mpic.spriteapp.cn/x/640x400/ugc/2017/12/05/5a2628696165c_1.jpg"
+1512525697989	Marionette	DEBUG	Received DOM event "pageshow" for "http://tva4.sinaimg.cn/crop.0.0.996.996.50/e7f9e94djw8f6ursgyso3j20ro0rp0wy.jpg"
+1512525698004	Marionette	DEBUG	Received DOM event "beforeunload" for "http://tva4.sinaimg.cn/crop.0.0.996.996.50/e7f9e94djw8f6ursgyso3j20ro0rp0wy.jpg"
+1512525698013	Marionette	DEBUG	Received DOM event "pagehide" for "http://tva4.sinaimg.cn/crop.0.0.996.996.50/e7f9e94djw8f6ursgyso3j20ro0rp0wy.jpg"
+1512525698013	Marionette	DEBUG	Received DOM event "unload" for "http://tva4.sinaimg.cn/crop.0.0.996.996.50/e7f9e94djw8f6ursgyso3j20ro0rp0wy.jpg"
+1512525698050	Marionette	DEBUG	Received DOM event "pageshow" for "http://mpic.spriteapp.cn/ugc/2017/12/05/5a26529ada7ee_1.jpg"
+1512525698093	Marionette	DEBUG	Received DOM event "beforeunload" for "http://mpic.spriteapp.cn/ugc/2017/12/05/5a26529ada7ee_1.jpg"
+1512525698097	Marionette	DEBUG	Received DOM event "pagehide" for "http://mpic.spriteapp.cn/ugc/2017/12/05/5a26529ada7ee_1.jpg"
+1512525698097	Marionette	DEBUG	Received DOM event "unload" for "http://mpic.spriteapp.cn/ugc/2017/12/05/5a26529ada7ee_1.jpg"
+1512525698106	Marionette	DEBUG	Received DOM event "pageshow" for "http://mpic.spriteapp.cn/profile/large/2017/09/17/59be49e483d23_mini.jpg"
+1512525698138	Marionette	DEBUG	Received DOM event "beforeunload" for "http://mpic.spriteapp.cn/profile/large/2017/09/17/59be49e483d23_mini.jpg"
+1512525698145	Marionette	DEBUG	Received DOM event "pagehide" for "http://mpic.spriteapp.cn/profile/large/2017/09/17/59be49e483d23_mini.jpg"
+1512525698145	Marionette	DEBUG	Received DOM event "unload" for "http://mpic.spriteapp.cn/profile/large/2017/09/17/59be49e483d23_mini.jpg"
+1512525698156	Marionette	DEBUG	Received DOM event "pageshow" for "http://mpic.spriteapp.cn/x/640x400/ugc/2017/12/04/5a252226bc32d_1.jpg"
+1512525698200	Marionette	DEBUG	Received DOM event "beforeunload" for "http://mpic.spriteapp.cn/x/640x400/ugc/2017/12/04/5a252226bc32d_1.jpg"
+1512525698204	Marionette	DEBUG	Received DOM event "pagehide" for "http://mpic.spriteapp.cn/x/640x400/ugc/2017/12/04/5a252226bc32d_1.jpg"
+1512525698204	Marionette	DEBUG	Received DOM event "unload" for "http://mpic.spriteapp.cn/x/640x400/ugc/2017/12/04/5a252226bc32d_1.jpg"
+1512525698215	Marionette	DEBUG	Received DOM event "pageshow" for "http://mpic.spriteapp.cn/crop/152x93/picture/2017/1122/5a14b2a24501f__b_85.jpg"
+1512525698242	Marionette	DEBUG	Received DOM event "beforeunload" for "http://mpic.spriteapp.cn/crop/152x93/picture/2017/1122/5a14b2a24501f__b_85.jpg"
+1512525698247	Marionette	DEBUG	Received DOM event "pagehide" for "http://mpic.spriteapp.cn/crop/152x93/picture/2017/1122/5a14b2a24501f__b_85.jpg"
+1512525698247	Marionette	DEBUG	Received DOM event "unload" for "http://mpic.spriteapp.cn/crop/152x93/picture/2017/1122/5a14b2a24501f__b_85.jpg"
+1512525698255	Marionette	DEBUG	Received DOM event "pageshow" for "http://mpic.spriteapp.cn/crop/152x93/picture/2017/1114/5a0b044b454e6__b.jpg"
+1512525698287	Marionette	DEBUG	Received DOM event "beforeunload" for "http://mpic.spriteapp.cn/crop/152x93/picture/2017/1114/5a0b044b454e6__b.jpg"
+1512525698293	Marionette	DEBUG	Received DOM event "pagehide" for "http://mpic.spriteapp.cn/crop/152x93/picture/2017/1114/5a0b044b454e6__b.jpg"
+1512525698293	Marionette	DEBUG	Received DOM event "unload" for "http://mpic.spriteapp.cn/crop/152x93/picture/2017/1114/5a0b044b454e6__b.jpg"
+1512525698306	Marionette	DEBUG	Received DOM event "pageshow" for "http://mpic.spriteapp.cn/crop/152x93/picture/2017/1121/5a140fdc3ebc5_wpd.jpg"
+1512525698361	Marionette	DEBUG	Received DOM event "beforeunload" for "http://mpic.spriteapp.cn/crop/152x93/picture/2017/1121/5a140fdc3ebc5_wpd.jpg"
+1512525698368	Marionette	DEBUG	Received DOM event "pagehide" for "http://mpic.spriteapp.cn/crop/152x93/picture/2017/1121/5a140fdc3ebc5_wpd.jpg"
+1512525698368	Marionette	DEBUG	Received DOM event "unload" for "http://mpic.spriteapp.cn/crop/152x93/picture/2017/1121/5a140fdc3ebc5_wpd.jpg"
+1512525698378	Marionette	DEBUG	Received DOM event "pageshow" for "http://s3m.mediav.com/galileo/c12258c699c04126b42a6ca470d828af.jpg"
+1512525698395	Marionette	DEBUG	Received DOM event "beforeunload" for "http://s3m.mediav.com/galileo/c12258c699c04126b42a6ca470d828af.jpg"
+1512525698402	Marionette	DEBUG	Received DOM event "pagehide" for "http://s3m.mediav.com/galileo/c12258c699c04126b42a6ca470d828af.jpg"
+1512525698403	Marionette	DEBUG	Received DOM event "unload" for "http://s3m.mediav.com/galileo/c12258c699c04126b42a6ca470d828af.jpg"
+1512525698409	Marionette	DEBUG	Received DOM event "pageshow" for "http://s3m.mediav.com/galileo/6c72ad866491129ff94b707c7637d555.jpg"
+1512525698443	Marionette	DEBUG	Received DOM event "beforeunload" for "http://s3m.mediav.com/galileo/6c72ad866491129ff94b707c7637d555.jpg"
+1512525698454	Marionette	DEBUG	Received DOM event "pagehide" for "http://s3m.mediav.com/galileo/6c72ad866491129ff94b707c7637d555.jpg"
+1512525698454	Marionette	DEBUG	Received DOM event "unload" for "http://s3m.mediav.com/galileo/6c72ad866491129ff94b707c7637d555.jpg"
+1512525698461	Marionette	DEBUG	Received DOM event "pageshow" for "http://mpic.spriteapp.cn/crop/152x93/picture/2017/1030/98505ca2-bd7b-11e7-9d4e-90b11c479401_wpd.jpg"
+1512525698481	Marionette	DEBUG	Received DOM event "beforeunload" for "http://mpic.spriteapp.cn/crop/152x93/picture/2017/1030/98505ca2-bd7b-11e7-9d4e-90b11c479401_wpd.jpg"
+1512525698488	Marionette	DEBUG	Received DOM event "pagehide" for "http://mpic.spriteapp.cn/crop/152x93/picture/2017/1030/98505ca2-bd7b-11e7-9d4e-90b11c479401_wpd.jpg"
+1512525698488	Marionette	DEBUG	Received DOM event "unload" for "http://mpic.spriteapp.cn/crop/152x93/picture/2017/1030/98505ca2-bd7b-11e7-9d4e-90b11c479401_wpd.jpg"
+1512525698494	Marionette	DEBUG	Received DOM event "pageshow" for "http://mpic.spriteapp.cn/crop/152x93/picture/2017/1201/8bb6f11a-d697-11e7-9ead-90b11c479401_wpd_76.jpg"
+1512525698518	Marionette	DEBUG	Received DOM event "beforeunload" for "http://mpic.spriteapp.cn/crop/152x93/picture/2017/1201/8bb6f11a-d697-11e7-9ead-90b11c479401_wpd_76.jpg"
+1512525698523	Marionette	DEBUG	Received DOM event "pagehide" for "http://mpic.spriteapp.cn/crop/152x93/picture/2017/1201/8bb6f11a-d697-11e7-9ead-90b11c479401_wpd_76.jpg"
+1512525698523	Marionette	DEBUG	Received DOM event "unload" for "http://mpic.spriteapp.cn/crop/152x93/picture/2017/1201/8bb6f11a-d697-11e7-9ead-90b11c479401_wpd_76.jpg"
+1512525698533	Marionette	DEBUG	Received DOM event "pageshow" for "http://mpic.spriteapp.cn/crop/152x93/picture/2017/1129/56cef182d4bc11e78ec0842b2b4c75ab_wpd_56.jpg"
+1512525698556	Marionette	DEBUG	Received DOM event "beforeunload" for "http://mpic.spriteapp.cn/crop/152x93/picture/2017/1129/56cef182d4bc11e78ec0842b2b4c75ab_wpd_56.jpg"
+1512525698561	Marionette	DEBUG	Received DOM event "pagehide" for "http://mpic.spriteapp.cn/crop/152x93/picture/2017/1129/56cef182d4bc11e78ec0842b2b4c75ab_wpd_56.jpg"
+1512525698561	Marionette	DEBUG	Received DOM event "unload" for "http://mpic.spriteapp.cn/crop/152x93/picture/2017/1129/56cef182d4bc11e78ec0842b2b4c75ab_wpd_56.jpg"
+1512525698568	Marionette	DEBUG	Received DOM event "pageshow" for "http://mpic.spriteapp.cn/crop/152x93/picture/2017/1112/26802973_927.jpg"
+1512525698596	Marionette	DEBUG	Received DOM event "beforeunload" for "http://mpic.spriteapp.cn/crop/152x93/picture/2017/1112/26802973_927.jpg"
+1512525698603	Marionette	DEBUG	Received DOM event "pagehide" for "http://mpic.spriteapp.cn/crop/152x93/picture/2017/1112/26802973_927.jpg"
+1512525698603	Marionette	DEBUG	Received DOM event "unload" for "http://mpic.spriteapp.cn/crop/152x93/picture/2017/1112/26802973_927.jpg"
+1512525698610	Marionette	DEBUG	Received DOM event "pageshow" for "http://mpic.spriteapp.cn/crop/152x93/picture/2017/1126/26898878_106.jpg"
+1512525698630	Marionette	DEBUG	Received DOM event "beforeunload" for "http://mpic.spriteapp.cn/crop/152x93/picture/2017/1126/26898878_106.jpg"
+1512525698635	Marionette	DEBUG	Received DOM event "pagehide" for "http://mpic.spriteapp.cn/crop/152x93/picture/2017/1126/26898878_106.jpg"
+1512525698635	Marionette	DEBUG	Received DOM event "unload" for "http://mpic.spriteapp.cn/crop/152x93/picture/2017/1126/26898878_106.jpg"
+1512525698642	Marionette	DEBUG	Received DOM event "pageshow" for "http://mpic.spriteapp.cn/crop/152x93/picture/2017/1115/ba6f8dd4c9f711e7ae8e842b2b4c75ab_wpd.jpg"
+1512525698660	Marionette	DEBUG	Received DOM event "beforeunload" for "http://mpic.spriteapp.cn/crop/152x93/picture/2017/1115/ba6f8dd4c9f711e7ae8e842b2b4c75ab_wpd.jpg"
+1512525698668	Marionette	DEBUG	Received DOM event "pagehide" for "http://mpic.spriteapp.cn/crop/152x93/picture/2017/1115/ba6f8dd4c9f711e7ae8e842b2b4c75ab_wpd.jpg"
+1512525698668	Marionette	DEBUG	Received DOM event "unload" for "http://mpic.spriteapp.cn/crop/152x93/picture/2017/1115/ba6f8dd4c9f711e7ae8e842b2b4c75ab_wpd.jpg"
+1512525698675	Marionette	DEBUG	Received DOM event "pageshow" for "http://s3m.mediav.com/galileo/16d997b6f0c84d4aae2762d294107753.jpg"
+1512525698701	Marionette	DEBUG	Received DOM event "beforeunload" for "http://s3m.mediav.com/galileo/16d997b6f0c84d4aae2762d294107753.jpg"
+1512525698706	Marionette	DEBUG	Received DOM event "pagehide" for "http://s3m.mediav.com/galileo/16d997b6f0c84d4aae2762d294107753.jpg"
+1512525698706	Marionette	DEBUG	Received DOM event "unload" for "http://s3m.mediav.com/galileo/16d997b6f0c84d4aae2762d294107753.jpg"
+1512525698717	Marionette	DEBUG	Received DOM event "pageshow" for "http://s3m.mediav.com/super-resolution/t01194c30a40b3d6bce.png"
+1512525698742	Marionette	DEBUG	Received DOM event "beforeunload" for "http://s3m.mediav.com/super-resolution/t01194c30a40b3d6bce.png"
+1512525698747	Marionette	DEBUG	Received DOM event "pagehide" for "http://s3m.mediav.com/super-resolution/t01194c30a40b3d6bce.png"
+1512525698747	Marionette	DEBUG	Received DOM event "unload" for "http://s3m.mediav.com/super-resolution/t01194c30a40b3d6bce.png"
+1512525698756	Marionette	DEBUG	Received DOM event "pageshow" for "http://mpic.spriteapp.cn/crop/152x93/picture/2017/1108/5a030694a97c3__b_70.jpg"
+1512525698788	Marionette	DEBUG	Received DOM event "beforeunload" for "http://mpic.spriteapp.cn/crop/152x93/picture/2017/1108/5a030694a97c3__b_70.jpg"
+1512525698794	Marionette	DEBUG	Received DOM event "pagehide" for "http://mpic.spriteapp.cn/crop/152x93/picture/2017/1108/5a030694a97c3__b_70.jpg"
+1512525698795	Marionette	DEBUG	Received DOM event "unload" for "http://mpic.spriteapp.cn/crop/152x93/picture/2017/1108/5a030694a97c3__b_70.jpg"
+1512525698803	Marionette	DEBUG	Received DOM event "pageshow" for "http://mpic.spriteapp.cn/crop/152x93/picture/2017/1111/26795773_551.jpg"
+1512525698827	Marionette	DEBUG	Received DOM event "beforeunload" for "http://mpic.spriteapp.cn/crop/152x93/picture/2017/1111/26795773_551.jpg"
+1512525698831	Marionette	DEBUG	Received DOM event "pagehide" for "http://mpic.spriteapp.cn/crop/152x93/picture/2017/1111/26795773_551.jpg"
+1512525698831	Marionette	DEBUG	Received DOM event "unload" for "http://mpic.spriteapp.cn/crop/152x93/picture/2017/1111/26795773_551.jpg"
+1512525698840	Marionette	DEBUG	Received DOM event "pageshow" for "http://mpic.spriteapp.cn/crop/152x93/picture/2017/1116/5a0ccf7623a29__b.jpg"
+1512525867765	geckodriver	INFO	geckodriver 0.19.1
+1512525867770	geckodriver	INFO	Listening on 127.0.0.1:49611
+1512525870863	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-profile" "/var/folders/y6/_nhz30ns27d2sk1yppf87g3h0000gn/T/rust_mozprofile.KhoHGY5hXoro"
+*** You are running in headless mode.
+1512525871286	Marionette	INFO	Enabled via --marionette
+2017-12-06 10:04:32.073 plugin-container[1425:27441] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xa23f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1512525872353	Marionette	INFO	Listening on port 49618
+1512525872884	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512525872925	Marionette	DEBUG	Register listener.js for window 2147483649
+1512525872966	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512525873219	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512525873219	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1512525873447	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.budejie.com/pic/"
+JavaScript error: http://cpro.baidustatic.com/cpro/ui/noexpire/js/4.0.0/adClosefeedbackUpgrade.min.js, line 1: TypeError: g is null
+1512525874878	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483657"
+1512525876210	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.budejie.com/pic/"
+1512525876362	Marionette	DEBUG	Received DOM event "beforeunload" for "http://www.budejie.com/pic/"
+1512525876375	Marionette	DEBUG	Received DOM event "pagehide" for "http://www.budejie.com/pic/"
+1512525876377	Marionette	DEBUG	Received DOM event "unload" for "http://www.budejie.com/pic/"
+1512525876405	Marionette	DEBUG	Received DOM event "pageshow" for "http://mpic.spriteapp.cn/profile/20170512115717.jpg"
+1512525876480	Marionette	DEBUG	Received DOM event "beforeunload" for "http://mpic.spriteapp.cn/profile/20170512115717.jpg"
+1512525876493	Marionette	DEBUG	Received DOM event "pagehide" for "http://mpic.spriteapp.cn/profile/20170512115717.jpg"
+1512525876494	Marionette	DEBUG	Received DOM event "unload" for "http://mpic.spriteapp.cn/profile/20170512115717.jpg"
+1512525876503	Marionette	DEBUG	Received DOM event "pageshow" for "http://mpic.spriteapp.cn/ugc/2017/12/04/91bce31ad8d311e7aa1c842b2b4c75ab_1.jpg"
+1512525876537	Marionette	DEBUG	Received DOM event "beforeunload" for "http://mpic.spriteapp.cn/ugc/2017/12/04/91bce31ad8d311e7aa1c842b2b4c75ab_1.jpg"
+1512525876544	Marionette	DEBUG	Received DOM event "pagehide" for "http://mpic.spriteapp.cn/ugc/2017/12/04/91bce31ad8d311e7aa1c842b2b4c75ab_1.jpg"
+1512525876544	Marionette	DEBUG	Received DOM event "unload" for "http://mpic.spriteapp.cn/ugc/2017/12/04/91bce31ad8d311e7aa1c842b2b4c75ab_1.jpg"
+1512525876550	Marionette	DEBUG	Received DOM event "pageshow" for "http://mpic.spriteapp.cn/profile/large/2017/06/15/59429c46ba478_mini.jpg"
+1512525876571	Marionette	DEBUG	Received DOM event "beforeunload" for "http://mpic.spriteapp.cn/profile/large/2017/06/15/59429c46ba478_mini.jpg"
+1512525876576	Marionette	DEBUG	Received DOM event "pagehide" for "http://mpic.spriteapp.cn/profile/large/2017/06/15/59429c46ba478_mini.jpg"
+1512525876577	Marionette	DEBUG	Received DOM event "unload" for "http://mpic.spriteapp.cn/profile/large/2017/06/15/59429c46ba478_mini.jpg"
+1512525876583	Marionette	DEBUG	Received DOM event "pageshow" for "http://mpic.spriteapp.cn/x/640x400/ugc/2017/12/05/5a2628696165c_1.jpg"
+1512525876606	Marionette	DEBUG	Received DOM event "beforeunload" for "http://mpic.spriteapp.cn/x/640x400/ugc/2017/12/05/5a2628696165c_1.jpg"
+1512525876610	Marionette	DEBUG	Received DOM event "pagehide" for "http://mpic.spriteapp.cn/x/640x400/ugc/2017/12/05/5a2628696165c_1.jpg"
+1512525876610	Marionette	DEBUG	Received DOM event "unload" for "http://mpic.spriteapp.cn/x/640x400/ugc/2017/12/05/5a2628696165c_1.jpg"
+1512525876630	Marionette	DEBUG	Received DOM event "pageshow" for "http://tva4.sinaimg.cn/crop.0.0.996.996.50/e7f9e94djw8f6ursgyso3j20ro0rp0wy.jpg"
+1512525876642	Marionette	DEBUG	Received DOM event "beforeunload" for "http://tva4.sinaimg.cn/crop.0.0.996.996.50/e7f9e94djw8f6ursgyso3j20ro0rp0wy.jpg"
+1512525876650	Marionette	DEBUG	Received DOM event "pagehide" for "http://tva4.sinaimg.cn/crop.0.0.996.996.50/e7f9e94djw8f6ursgyso3j20ro0rp0wy.jpg"
+1512525876650	Marionette	DEBUG	Received DOM event "unload" for "http://tva4.sinaimg.cn/crop.0.0.996.996.50/e7f9e94djw8f6ursgyso3j20ro0rp0wy.jpg"
+1512525876658	Marionette	DEBUG	Received DOM event "pageshow" for "http://mpic.spriteapp.cn/ugc/2017/12/05/5a26529ada7ee_1.jpg"
+1512525876677	Marionette	DEBUG	Received DOM event "beforeunload" for "http://mpic.spriteapp.cn/ugc/2017/12/05/5a26529ada7ee_1.jpg"
+1512525876682	Marionette	DEBUG	Received DOM event "pagehide" for "http://mpic.spriteapp.cn/ugc/2017/12/05/5a26529ada7ee_1.jpg"
+1512525876682	Marionette	DEBUG	Received DOM event "unload" for "http://mpic.spriteapp.cn/ugc/2017/12/05/5a26529ada7ee_1.jpg"
+1512525876688	Marionette	DEBUG	Received DOM event "pageshow" for "http://mpic.spriteapp.cn/profile/large/2017/09/17/59be49e483d23_mini.jpg"
+1512525876710	Marionette	DEBUG	Received DOM event "beforeunload" for "http://mpic.spriteapp.cn/profile/large/2017/09/17/59be49e483d23_mini.jpg"
+1512525876718	Marionette	DEBUG	Received DOM event "pagehide" for "http://mpic.spriteapp.cn/profile/large/2017/09/17/59be49e483d23_mini.jpg"
+1512525876718	Marionette	DEBUG	Received DOM event "unload" for "http://mpic.spriteapp.cn/profile/large/2017/09/17/59be49e483d23_mini.jpg"
+1512525876724	Marionette	DEBUG	Received DOM event "pageshow" for "http://mpic.spriteapp.cn/x/640x400/ugc/2017/12/04/5a252226bc32d_1.jpg"
+1512525876776	Marionette	DEBUG	Received DOM event "beforeunload" for "http://mpic.spriteapp.cn/x/640x400/ugc/2017/12/04/5a252226bc32d_1.jpg"
+1512525876782	Marionette	DEBUG	Received DOM event "pagehide" for "http://mpic.spriteapp.cn/x/640x400/ugc/2017/12/04/5a252226bc32d_1.jpg"
+1512525876782	Marionette	DEBUG	Received DOM event "unload" for "http://mpic.spriteapp.cn/x/640x400/ugc/2017/12/04/5a252226bc32d_1.jpg"
+1512525876787	Marionette	DEBUG	Received DOM event "pageshow" for "http://mpic.spriteapp.cn/crop/152x93/picture/2017/1122/5a14b2a24501f__b_85.jpg"
+1512525876807	Marionette	DEBUG	Received DOM event "beforeunload" for "http://mpic.spriteapp.cn/crop/152x93/picture/2017/1122/5a14b2a24501f__b_85.jpg"
+1512525876810	Marionette	DEBUG	Received DOM event "pagehide" for "http://mpic.spriteapp.cn/crop/152x93/picture/2017/1122/5a14b2a24501f__b_85.jpg"
+1512525876811	Marionette	DEBUG	Received DOM event "unload" for "http://mpic.spriteapp.cn/crop/152x93/picture/2017/1122/5a14b2a24501f__b_85.jpg"
+1512525876816	Marionette	DEBUG	Received DOM event "pageshow" for "http://mpic.spriteapp.cn/crop/152x93/picture/2017/1114/5a0b044b454e6__b.jpg"
+1512525876838	Marionette	DEBUG	Received DOM event "beforeunload" for "http://mpic.spriteapp.cn/crop/152x93/picture/2017/1114/5a0b044b454e6__b.jpg"
+1512525876843	Marionette	DEBUG	Received DOM event "pagehide" for "http://mpic.spriteapp.cn/crop/152x93/picture/2017/1114/5a0b044b454e6__b.jpg"
+1512525876843	Marionette	DEBUG	Received DOM event "unload" for "http://mpic.spriteapp.cn/crop/152x93/picture/2017/1114/5a0b044b454e6__b.jpg"
+1512525876849	Marionette	DEBUG	Received DOM event "pageshow" for "http://mpic.spriteapp.cn/crop/152x93/picture/2017/1121/5a140fdc3ebc5_wpd.jpg"
+1512525876885	Marionette	DEBUG	Received DOM event "beforeunload" for "http://mpic.spriteapp.cn/crop/152x93/picture/2017/1121/5a140fdc3ebc5_wpd.jpg"
+1512525876891	Marionette	DEBUG	Received DOM event "pagehide" for "http://mpic.spriteapp.cn/crop/152x93/picture/2017/1121/5a140fdc3ebc5_wpd.jpg"
+1512525876891	Marionette	DEBUG	Received DOM event "unload" for "http://mpic.spriteapp.cn/crop/152x93/picture/2017/1121/5a140fdc3ebc5_wpd.jpg"
+1512525876901	Marionette	DEBUG	Received DOM event "pageshow" for "http://s3m.mediav.com/galileo/fc8af3b56a939af36de12c7a83a666df.jpg"
+1512525876916	Marionette	DEBUG	Received DOM event "beforeunload" for "http://s3m.mediav.com/galileo/fc8af3b56a939af36de12c7a83a666df.jpg"
+1512525876924	Marionette	DEBUG	Received DOM event "pagehide" for "http://s3m.mediav.com/galileo/fc8af3b56a939af36de12c7a83a666df.jpg"
+1512525876924	Marionette	DEBUG	Received DOM event "unload" for "http://s3m.mediav.com/galileo/fc8af3b56a939af36de12c7a83a666df.jpg"
+1512525876931	Marionette	DEBUG	Received DOM event "pageshow" for "http://s3m.mediav.com/galileo/f1baf3fbcef47103c0961925a28ad0c6.jpg"
+1512525876954	Marionette	DEBUG	Received DOM event "beforeunload" for "http://s3m.mediav.com/galileo/f1baf3fbcef47103c0961925a28ad0c6.jpg"
+1512525876958	Marionette	DEBUG	Received DOM event "pagehide" for "http://s3m.mediav.com/galileo/f1baf3fbcef47103c0961925a28ad0c6.jpg"
+1512525876958	Marionette	DEBUG	Received DOM event "unload" for "http://s3m.mediav.com/galileo/f1baf3fbcef47103c0961925a28ad0c6.jpg"
+1512525876965	Marionette	DEBUG	Received DOM event "pageshow" for "http://mpic.spriteapp.cn/crop/152x93/picture/2017/1030/98505ca2-bd7b-11e7-9d4e-90b11c479401_wpd.jpg"
+1512525876989	Marionette	DEBUG	Received DOM event "beforeunload" for "http://mpic.spriteapp.cn/crop/152x93/picture/2017/1030/98505ca2-bd7b-11e7-9d4e-90b11c479401_wpd.jpg"
+1512525876994	Marionette	DEBUG	Received DOM event "pagehide" for "http://mpic.spriteapp.cn/crop/152x93/picture/2017/1030/98505ca2-bd7b-11e7-9d4e-90b11c479401_wpd.jpg"
+1512525876994	Marionette	DEBUG	Received DOM event "unload" for "http://mpic.spriteapp.cn/crop/152x93/picture/2017/1030/98505ca2-bd7b-11e7-9d4e-90b11c479401_wpd.jpg"
+1512525877001	Marionette	DEBUG	Received DOM event "pageshow" for "http://mpic.spriteapp.cn/crop/152x93/picture/2017/1201/8bb6f11a-d697-11e7-9ead-90b11c479401_wpd_76.jpg"
+1512525877022	Marionette	DEBUG	Received DOM event "beforeunload" for "http://mpic.spriteapp.cn/crop/152x93/picture/2017/1201/8bb6f11a-d697-11e7-9ead-90b11c479401_wpd_76.jpg"
+1512525877026	Marionette	DEBUG	Received DOM event "pagehide" for "http://mpic.spriteapp.cn/crop/152x93/picture/2017/1201/8bb6f11a-d697-11e7-9ead-90b11c479401_wpd_76.jpg"
+1512525877026	Marionette	DEBUG	Received DOM event "unload" for "http://mpic.spriteapp.cn/crop/152x93/picture/2017/1201/8bb6f11a-d697-11e7-9ead-90b11c479401_wpd_76.jpg"
+1512525877036	Marionette	DEBUG	Received DOM event "pageshow" for "http://mpic.spriteapp.cn/crop/152x93/picture/2017/1129/56cef182d4bc11e78ec0842b2b4c75ab_wpd_56.jpg"
+1512525877056	Marionette	DEBUG	Received DOM event "beforeunload" for "http://mpic.spriteapp.cn/crop/152x93/picture/2017/1129/56cef182d4bc11e78ec0842b2b4c75ab_wpd_56.jpg"
+1512525877060	Marionette	DEBUG	Received DOM event "pagehide" for "http://mpic.spriteapp.cn/crop/152x93/picture/2017/1129/56cef182d4bc11e78ec0842b2b4c75ab_wpd_56.jpg"
+1512525877060	Marionette	DEBUG	Received DOM event "unload" for "http://mpic.spriteapp.cn/crop/152x93/picture/2017/1129/56cef182d4bc11e78ec0842b2b4c75ab_wpd_56.jpg"
+1512525877067	Marionette	DEBUG	Received DOM event "pageshow" for "http://mpic.spriteapp.cn/crop/152x93/picture/2017/1112/26802973_927.jpg"
+1512525877090	Marionette	DEBUG	Received DOM event "beforeunload" for "http://mpic.spriteapp.cn/crop/152x93/picture/2017/1112/26802973_927.jpg"
+1512525877093	Marionette	DEBUG	Received DOM event "pagehide" for "http://mpic.spriteapp.cn/crop/152x93/picture/2017/1112/26802973_927.jpg"
+1512525877093	Marionette	DEBUG	Received DOM event "unload" for "http://mpic.spriteapp.cn/crop/152x93/picture/2017/1112/26802973_927.jpg"
+1512525877100	Marionette	DEBUG	Received DOM event "pageshow" for "http://mpic.spriteapp.cn/crop/152x93/picture/2017/1126/26898878_106.jpg"
+1512525877109	Marionette	DEBUG	Received DOM event "beforeunload" for "http://mpic.spriteapp.cn/crop/152x93/picture/2017/1126/26898878_106.jpg"
+1512525877118	Marionette	DEBUG	Received DOM event "pagehide" for "http://mpic.spriteapp.cn/crop/152x93/picture/2017/1126/26898878_106.jpg"
+1512525877119	Marionette	DEBUG	Received DOM event "unload" for "http://mpic.spriteapp.cn/crop/152x93/picture/2017/1126/26898878_106.jpg"
+1512525877127	Marionette	DEBUG	Received DOM event "pageshow" for "http://mpic.spriteapp.cn/crop/152x93/picture/2017/1115/ba6f8dd4c9f711e7ae8e842b2b4c75ab_wpd.jpg"
+1512525877151	Marionette	DEBUG	Received DOM event "beforeunload" for "http://mpic.spriteapp.cn/crop/152x93/picture/2017/1115/ba6f8dd4c9f711e7ae8e842b2b4c75ab_wpd.jpg"
+1512525877155	Marionette	DEBUG	Received DOM event "pagehide" for "http://mpic.spriteapp.cn/crop/152x93/picture/2017/1115/ba6f8dd4c9f711e7ae8e842b2b4c75ab_wpd.jpg"
+1512525877155	Marionette	DEBUG	Received DOM event "unload" for "http://mpic.spriteapp.cn/crop/152x93/picture/2017/1115/ba6f8dd4c9f711e7ae8e842b2b4c75ab_wpd.jpg"
+1512525877160	Marionette	DEBUG	Received DOM event "pageshow" for "http://s3m.mediav.com/galileo/c12258c699c04126b42a6ca470d828af.jpg"
+1512525877183	Marionette	DEBUG	Received DOM event "beforeunload" for "http://s3m.mediav.com/galileo/c12258c699c04126b42a6ca470d828af.jpg"
+1512525877188	Marionette	DEBUG	Received DOM event "pagehide" for "http://s3m.mediav.com/galileo/c12258c699c04126b42a6ca470d828af.jpg"
+1512525877189	Marionette	DEBUG	Received DOM event "unload" for "http://s3m.mediav.com/galileo/c12258c699c04126b42a6ca470d828af.jpg"
+1512525877198	Marionette	DEBUG	Received DOM event "pageshow" for "http://s3m.mediav.com/galileo/16d997b6f0c84d4aae2762d294107753.jpg"
+1512525877219	Marionette	DEBUG	Received DOM event "beforeunload" for "http://s3m.mediav.com/galileo/16d997b6f0c84d4aae2762d294107753.jpg"
+1512525877223	Marionette	DEBUG	Received DOM event "pagehide" for "http://s3m.mediav.com/galileo/16d997b6f0c84d4aae2762d294107753.jpg"
+1512525877224	Marionette	DEBUG	Received DOM event "unload" for "http://s3m.mediav.com/galileo/16d997b6f0c84d4aae2762d294107753.jpg"
+1512525877231	Marionette	DEBUG	Received DOM event "pageshow" for "http://mpic.spriteapp.cn/crop/152x93/picture/2017/1108/5a030694a97c3__b_70.jpg"
+1512525877248	Marionette	DEBUG	Received DOM event "beforeunload" for "http://mpic.spriteapp.cn/crop/152x93/picture/2017/1108/5a030694a97c3__b_70.jpg"
+1512525877251	Marionette	DEBUG	Received DOM event "pagehide" for "http://mpic.spriteapp.cn/crop/152x93/picture/2017/1108/5a030694a97c3__b_70.jpg"
+1512525877251	Marionette	DEBUG	Received DOM event "unload" for "http://mpic.spriteapp.cn/crop/152x93/picture/2017/1108/5a030694a97c3__b_70.jpg"
+1512525877256	Marionette	DEBUG	Received DOM event "pageshow" for "http://mpic.spriteapp.cn/crop/152x93/picture/2017/1111/26795773_551.jpg"
+1512525877277	Marionette	DEBUG	Received DOM event "beforeunload" for "http://mpic.spriteapp.cn/crop/152x93/picture/2017/1111/26795773_551.jpg"
+1512525877281	Marionette	DEBUG	Received DOM event "pagehide" for "http://mpic.spriteapp.cn/crop/152x93/picture/2017/1111/26795773_551.jpg"
+1512525877281	Marionette	DEBUG	Received DOM event "unload" for "http://mpic.spriteapp.cn/crop/152x93/picture/2017/1111/26795773_551.jpg"
+1512525877287	Marionette	DEBUG	Received DOM event "pageshow" for "http://mpic.spriteapp.cn/crop/152x93/picture/2017/1116/5a0ccf7623a29__b.jpg"
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x150083,name=PBrowser::Msg_Destroy) Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+1512526293203	geckodriver	INFO	geckodriver 0.19.1
+1512526293209	geckodriver	INFO	Listening on 127.0.0.1:49786
+1512526296295	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-profile" "/var/folders/y6/_nhz30ns27d2sk1yppf87g3h0000gn/T/rust_mozprofile.JRjUUVmUYGKG"
+*** You are running in headless mode.
+1512526296756	Marionette	INFO	Enabled via --marionette
+2017-12-06 10:11:37.405 plugin-container[1490:32584] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xa03f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1512526297709	Marionette	INFO	Listening on port 49793
+1512526298314	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512526298351	Marionette	DEBUG	Register listener.js for window 2147483649
+1512526298416	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512526298501	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512526298502	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_mac_82990d4.js, line 4: ReferenceError: c is not defined
+1512526298661	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.baidu.com/"
+1512526298693	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.baidu.com/"
+1512526379637	geckodriver	INFO	geckodriver 0.19.1
+1512526379641	geckodriver	INFO	Listening on 127.0.0.1:49817
+1512526382724	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-profile" "/var/folders/y6/_nhz30ns27d2sk1yppf87g3h0000gn/T/rust_mozprofile.GudX1qQOuomW"
+*** You are running in headless mode.
+1512526383113	Marionette	INFO	Enabled via --marionette
+2017-12-06 10:13:03.940 plugin-container[1512:33850] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xa03f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1512526384213	Marionette	INFO	Listening on port 49824
+1512526384742	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512526384782	Marionette	DEBUG	Register listener.js for window 2147483649
+1512526384829	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512526384901	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512526384901	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_mac_82990d4.js, line 4: ReferenceError: c is not defined
+1512526385083	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.baidu.com/"
+1512526385128	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.baidu.com/"
+1512526451862	geckodriver	INFO	geckodriver 0.19.1
+1512526451866	geckodriver	INFO	Listening on 127.0.0.1:49850
+1512526454958	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-profile" "/var/folders/y6/_nhz30ns27d2sk1yppf87g3h0000gn/T/rust_mozprofile.k0a4OmRCVsqv"
+*** You are running in headless mode.
+1512526455337	Marionette	INFO	Enabled via --marionette
+2017-12-06 10:14:16.184 plugin-container[1543:35107] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xa23f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1512526456522	Marionette	INFO	Listening on port 49857
+1512526456985	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512526457032	Marionette	DEBUG	Register listener.js for window 2147483649
+1512526457074	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512526457158	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512526457158	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_mac_82990d4.js, line 4: ReferenceError: c is not defined
+1512526457308	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.baidu.com/"
+1512526457340	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.baidu.com/"
+1512527232228	geckodriver	INFO	geckodriver 0.19.1
+1512527232231	geckodriver	INFO	Listening on 127.0.0.1:49918
+1512527232411	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-profile" "/var/folders/y6/_nhz30ns27d2sk1yppf87g3h0000gn/T/rust_mozprofile.J9tRr4MJ4yFx"
+*** You are running in headless mode.
+1512527232932	Marionette	INFO	Enabled via --marionette
+2017-12-06 10:27:14.142 plugin-container[1783:43809] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9f43, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1512527234488	Marionette	INFO	Listening on port 49922
+1512527234839	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512527234887	Marionette	DEBUG	Register listener.js for window 2147483649
+1512527234942	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512527235034	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512527235034	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_mac_82990d4.js, line 4: ReferenceError: c is not defined
+1512527235227	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.baidu.com/"
+1512527235262	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.baidu.com/"
+1512527569994	geckodriver	INFO	geckodriver 0.19.1
+1512527569999	geckodriver	INFO	Listening on 127.0.0.1:49997
+1512527570184	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-profile" "/var/folders/y6/_nhz30ns27d2sk1yppf87g3h0000gn/T/rust_mozprofile.AemaqJN5I0r1"
+*** You are running in headless mode.
+1512527570784	Marionette	INFO	Enabled via --marionette
+2017-12-06 10:32:51.557 plugin-container[1835:48899] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xa03f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1512527571886	Marionette	INFO	Listening on port 50001
+1512527572723	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512527572782	Marionette	DEBUG	Register listener.js for window 2147483649
+1512527572858	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512527573026	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512527573027	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1512527573292	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.budejie.com/pic/"
+1512527573627	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483657"
+JavaScript error: http://cpro.baidustatic.com/cpro/ui/noexpire/js/4.0.1/adClosefeedbackUpgrade.min.js, line 1: TypeError: g is null
+1512527576083	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.budejie.com/pic/"
+JavaScript error: http://bdimg.share.baidu.com/static/api/js/trans/logger.js?v=d16ec0e3.js, line 1: TypeError: n.ajax.request is not a function
+1512527887679	geckodriver	INFO	geckodriver 0.19.1
+1512527887684	geckodriver	INFO	Listening on 127.0.0.1:50147
+1512527887875	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-profile" "/var/folders/y6/_nhz30ns27d2sk1yppf87g3h0000gn/T/rust_mozprofile.EIHQK5CPiIZV"
+*** You are running in headless mode.
+1512527888468	Marionette	INFO	Enabled via --marionette
+2017-12-06 10:38:09.230 plugin-container[1884:54520] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xa03f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1512527889618	Marionette	INFO	Listening on port 50151
+1512527890303	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512527890347	Marionette	DEBUG	Register listener.js for window 2147483649
+1512527890401	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512527890573	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512527890573	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1512527890912	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.budejie.com/pic/"
+JavaScript error: http://cpro.baidustatic.com/cpro/ui/noexpire/js/4.0.1/adClosefeedbackUpgrade.min.js, line 1: TypeError: g is null
+1512527891458	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483657"
+1512527891480	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.budejie.com/pic/"
+1512527997557	geckodriver	INFO	geckodriver 0.19.1
+1512527997563	geckodriver	INFO	Listening on 127.0.0.1:50249
+1512527997751	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-profile" "/var/folders/y6/_nhz30ns27d2sk1yppf87g3h0000gn/T/rust_mozprofile.aCergBskFI4D"
+*** You are running in headless mode.
+1512527998159	Marionette	INFO	Enabled via --marionette
+2017-12-06 10:39:58.796 plugin-container[1921:56664] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xa23f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1512527999161	Marionette	INFO	Listening on port 50253
+1512528000186	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512528000227	Marionette	DEBUG	Register listener.js for window 2147483649
+1512528000312	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512528000455	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512528000456	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1512528000772	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.budejie.com/pic/"
+1512528001685	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483657"
+JavaScript error: http://cpro.baidustatic.com/cpro/ui/noexpire/js/4.0.1/adClosefeedbackUpgrade.min.js, line 1: TypeError: g is null
+1512528003797	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.budejie.com/pic/"
+JavaScript error: http://bdimg.share.baidu.com/static/api/js/trans/logger.js?v=d16ec0e3.js, line 1: TypeError: n.ajax.request is not a function
+1512528047702	geckodriver	INFO	geckodriver 0.19.1
+1512528047705	geckodriver	INFO	Listening on 127.0.0.1:50337
+1512528047887	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-profile" "/var/folders/y6/_nhz30ns27d2sk1yppf87g3h0000gn/T/rust_mozprofile.tmaErMH0XXlG"
+*** You are running in headless mode.
+1512528048288	Marionette	INFO	Enabled via --marionette
+2017-12-06 10:40:48.930 plugin-container[1943:58024] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xa23f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1512528049244	Marionette	INFO	Listening on port 50341
+1512528050316	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512528050357	Marionette	DEBUG	Register listener.js for window 2147483649
+1512528050424	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512528050811	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512528050812	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1512528051045	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.budejie.com/pic/"
+JavaScript error: http://cpro.baidustatic.com/cpro/ui/noexpire/js/4.0.1/adClosefeedbackUpgrade.min.js, line 1: TypeError: g is null
+1512528051898	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483657"
+1512528051947	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.budejie.com/pic/"
+1512528232515	geckodriver	INFO	geckodriver 0.19.1
+1512528232519	geckodriver	INFO	Listening on 127.0.0.1:50448
+1512528232696	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-profile" "/var/folders/y6/_nhz30ns27d2sk1yppf87g3h0000gn/T/rust_mozprofile.y56CAl4AUymu"
+*** You are running in headless mode.
+1512528233114	Marionette	INFO	Enabled via --marionette
+2017-12-06 10:43:53.736 plugin-container[1976:60952] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xa03f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1512528234062	Marionette	INFO	Listening on port 50452
+1512528235133	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512528235187	Marionette	DEBUG	Register listener.js for window 2147483649
+1512528235262	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512528235363	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512528235363	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1512528235620	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.budejie.com/pic/"
+1512528236592	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483657"
+JavaScript error: http://cpro.baidustatic.com/cpro/ui/noexpire/js/4.0.0/adClosefeedbackUpgrade.min.js, line 1: TypeError: g is null
+1512528236664	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.budejie.com/pic/"
+1512528297374	geckodriver	INFO	geckodriver 0.19.1
+1512528297378	geckodriver	INFO	Listening on 127.0.0.1:50531
+1512528297564	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-profile" "/var/folders/y6/_nhz30ns27d2sk1yppf87g3h0000gn/T/rust_mozprofile.cN2TQwuyQjkv"
+*** You are running in headless mode.
+1512528297938	Marionette	INFO	Enabled via --marionette
+2017-12-06 10:44:58.774 plugin-container[2004:62386] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xa043, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1512528299111	Marionette	INFO	Listening on port 50535
+1512528300006	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512528300062	Marionette	DEBUG	Register listener.js for window 2147483649
+1512528300135	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512528300365	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512528300365	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1512528300587	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.budejie.com/pic/"
+1512528301247	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483658"
+1512528303128	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.budejie.com/pic/"
+1512528420844	geckodriver	INFO	geckodriver 0.19.1
+1512528420848	geckodriver	INFO	Listening on 127.0.0.1:50626
+1512528421030	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-profile" "/var/folders/y6/_nhz30ns27d2sk1yppf87g3h0000gn/T/rust_mozprofile.LKhhiVYfluSo"
+*** You are running in headless mode.
+1512528421405	Marionette	INFO	Enabled via --marionette
+2017-12-06 10:47:02.048 plugin-container[2048:64714] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xa03f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1512528422330	Marionette	INFO	Listening on port 50630
+1512528422358	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512528422401	Marionette	DEBUG	Register listener.js for window 2147483649
+1512528422571	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512528422752	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512528422752	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1512528423181	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.budejie.com/pic/"
+1512528423550	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483657"
+1512528424108	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.budejie.com/pic/"
+JavaScript error: http://cpro.baidustatic.com/cpro/ui/noexpire/js/4.0.1/adClosefeedbackUpgrade.min.js, line 1: TypeError: g is null
+1512528472173	geckodriver	INFO	geckodriver 0.19.1
+1512528472177	geckodriver	INFO	Listening on 127.0.0.1:50713
+1512528472369	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-profile" "/var/folders/y6/_nhz30ns27d2sk1yppf87g3h0000gn/T/rust_mozprofile.RWaA5Y7DVRN0"
+*** You are running in headless mode.
+1512528472773	Marionette	INFO	Enabled via --marionette
+2017-12-06 10:47:53.401 plugin-container[2073:66058] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xa03f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1512528473720	Marionette	INFO	Listening on port 50717
+1512528474794	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512528474837	Marionette	DEBUG	Register listener.js for window 2147483649
+1512528474901	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512528475048	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512528475048	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1512528475272	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.budejie.com/pic/"
+1512528475948	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483657"
+1512528476970	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.budejie.com/pic/"
+JavaScript error: http://cpro.baidustatic.com/cpro/ui/noexpire/js/4.0.1/adClosefeedbackUpgrade.min.js, line 1: TypeError: g is null
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
