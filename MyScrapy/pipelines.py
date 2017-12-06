@@ -50,13 +50,13 @@ class MyscrapyDBPipeline(object):
 #//ImagesPipeline 自动下载
 class MyImagesPipeline(ImagesPipeline):
     def get_media_requests(self, item, info):
-        if type(item) == ImageaItem and item['url'] is not None:
-            yield Request(item['url'])
+        if type(item) == ImageaItem and item['img_url'] is not None:
+            yield Request(item['img_url'])
         else:
             yield None
 
     def item_completed(self, results, item, info):
         for ok, x in results:
-            if ok:
-                os.rename(Settings.IMAGES_STORE+x['path'], Settings.IMAGES_STORE+x['path']+'hahaha.jpg')
-
+            if ok and os.path.exists(Settings.IMAGES_STORE + x['path']):
+                os.rename(Settings.IMAGES_STORE + x['path'], unicode(Settings.IMAGES_STORE + x['path'].replace('full/', '图片/')))
+        return item

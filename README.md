@@ -1,4 +1,5 @@
-
+source ~/PythonU/bin/activate  进入python虚拟环境
+source ~/PythonU/bin/activate; cd ~/PycharmProjects/MyScrapy;
 
 #   scrapy startproject project_name
 #   scrapy genspider [-t template] <name> <domain>

@@ -7,7 +7,8 @@ from scrapy import Request
 class ImageSpider(scrapy.Spider):
     name = 'image'
     # allowed_domains = ['douyu.com']
-    start_urls = ['http://www.budejie.com/pic',]
+    start_urls = ['http://www.budejie.com/pic', ]
+
     def start_requests(self):
         for url in self.start_urls:
             request = Request(url)
@@ -19,8 +20,13 @@ class ImageSpider(scrapy.Spider):
         for img in images:
             item = ImageaItem()
             item['name'] = ""
-            item['url'] = img.extract()
-            if item['url'].startswith('http') and (item['url'].endswith('jpeg') or item['url'].endswith('jpg') or item['url'].endswith('png')):
+            item['img_url'] = img.extract()
+
+            if item['img_url'].startswith('http') and \
+                    (item['img_url'].endswith('jpeg') or
+                         item['img_url'].endswith('jpg') or
+                         item['img_url'].endswith('gif') or
+                         item['img_url'].endswith('png')):
                 yield item
 
     @staticmethod

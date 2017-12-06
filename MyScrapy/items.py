@@ -21,4 +21,4 @@ class JieKouItem(scrapy.Item):
 
 class ImageaItem(scrapy.Item):
     name = scrapy.Field()
-    url = scrapy.Field()
+    img_url = scrapy.Field()
