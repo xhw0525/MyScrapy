@@ -17,7 +17,7 @@ NEWSPIDER_MODULE = 'MyScrapy.spiders'
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 IMAGES_STORE = os.path.join(BASE_DIR, 'result/images/')
-
+FILES_STORE = os.path.join(BASE_DIR, 'result/files/')
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 USER_AGENT = 'Mozilla/5.0 (X11; U; Linux x86_64; zh-CN; rv:1.9.2.10) Gecko/20100922 Ubuntu/10.10 (maverick) Firefox/3.6.10'
 
@@ -57,7 +57,9 @@ SPIDER_MIDDLEWARES = {
 # Enable or disable downloader middlewares
 # See http://scrapy.readthedocs.org/en/latest/topics/downloader-middleware.html
 DOWNLOADER_MIDDLEWARES = {
-   'MyScrapy.middlewares.MyCustomDownloaderMiddleware': 543,
+   'MyScrapy.middlewares.MyCustomDownloaderMiddleware': 500,
+    'MyScrapy.middlewares.DouYUDownloaderMiddleware': 100,
+
 }
 
 # Enable or disable extensions
@@ -72,7 +74,7 @@ ITEM_PIPELINES = {
     # 'MyScrapy.pipelines.MyscrapyPipeline': 300,
     # 'MyScrapy.pipelines.MyscrapyFilePipeline': 400,
     'MyScrapy.pipelines.MyscrapyDBPipeline': 300,
-    'MyScrapy.pipelines.MyImagesPipeline': 301,
+    'MyScrapy.pipelines.MyFilesPipeline': 301,
 
 }
 

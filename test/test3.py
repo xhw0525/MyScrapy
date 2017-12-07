@@ -17,13 +17,16 @@ browser.set_window_size(800, 800)
 
 
 browser.get("https://www.douyu.com/directory/game/yz")
-time.sleep(1)
+browser.find_element_by_xpath('//a[@class="shark-pager-next"]').click()
+# time.sleep(1)
 js="var q=document.getElementById('mainbody').scrollTop = document.getElementById('mainbody').scrollHeight * 0.1"
 browser.execute_script(js)
+browser.save_screenshot('hahahaha.png')
+browser.find_element_by_xpath().get_attribute('alt')
+#
+# time.sleep(1)
 
-time.sleep(1)
-
-print(browser.find_element_by_id('mainbody'))
+print(browser.find_element_by_xpath('//a[@class="shark-pager-next"]'))
 
 browser.save_screenshot('hahahaha.png')
 

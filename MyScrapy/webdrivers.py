@@ -8,7 +8,7 @@ from selenium import webdriver
 
 class Webdriver(object):
 
-    __web_driver = None
+    __webdriver = None
 
     def __init__(self, show_img=True):
         self.browser = Webdriver.creat_browser_phantomjs(show_img)
@@ -19,9 +19,9 @@ class Webdriver(object):
 
     @staticmethod
     def get_instance(show_img=True):
-        if Webdriver.__web_driver is None:
-            Webdriver.__web_driver = Webdriver(show_img)
-        return Webdriver.__web_driver
+        if Webdriver.__webdriver is None:
+            Webdriver.__webdriver = Webdriver(show_img)
+        return Webdriver.__webdriver
 
     @staticmethod
     def close():

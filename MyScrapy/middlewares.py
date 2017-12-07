@@ -67,7 +67,6 @@ class MyCustomDownloaderMiddleware(object):
 
     @classmethod
     def process_request(cls, request, spider): #此方法一直在单线程中调用
-
         if request.meta.get('webdriver'):
             Webdriver.get_instance().browser.get(request.url)
             content = Webdriver.get_instance().browser.page_source.encode('utf-8')
@@ -75,5 +74,26 @@ class MyCustomDownloaderMiddleware(object):
         else:
             return None  # 返回 None, 交给下一个中间件  或者loader 处理
 
+# -------------------------------------------------------------------------------------------------------------------
+
+#斗鱼
+class DouYUDownloaderMiddleware(object):
+
+    @classmethod
+    def process_request(cls, request, spider): #此方法一直在单线程中调用
+
+        if request.meta.get('webdriver'):
+            if request.meta.get('nexaa'):
+                Webdriver.get_instance().browser.find_element_by_xpath('//a[@class="shark-pager-next"]').click()
+            else:
+                Webdriver.get_instance().browser.get(request.url)
+            js = "var q=document.getElementById('mainbody').scrollTop = 100000"
+            Webdriver.get_instance().browser.execute_script(js)
+
+            content = Webdriver.get_instance().browser.page_source.encode('utf-8')
+
+            return HtmlResponse(request.url, encoding='utf-8', body=content, request=request)
+        else:
+            return None  # 返回 None, 交给下一个中间件  或者loader 处理
 
 
