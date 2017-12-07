@@ -3,18 +3,12 @@ import scrapy
 from scrapy import Request
 from MyScrapy.items import JieKouItem
 from MyScrapy.webdrivers import Webdriver
+import mybasespider
 
-
-class JiekouSpider(scrapy.Spider):
+class JiekouSpider(mybasespider.WebdriverSpider):
     name = 'JieKou'
     # allowed_domains = ['www.baidu.com']
     start_urls = ['http://devdoc.xiaoyouapp.cn/publics/apiList']
-
-    def start_requests(self):
-        for url in self.start_urls:
-            request = Request(url)
-            request.meta['Firefox'] = True
-            yield request
 
     def parse(self, response):
 
@@ -28,8 +22,3 @@ class JiekouSpider(scrapy.Spider):
 
                 print '------->>>>>>>', a.xpath('div[1]/h5/span/text()').extract()[0].encode('utf-8')
                 print '------->>>>>>>', a.xpath('div[2]/a/h5/text()').extract()[0]
-
-    @staticmethod
-    def close(spider, reason):
-        Webdriver.close()
-        return scrapy.Spider.close(spider, reason)

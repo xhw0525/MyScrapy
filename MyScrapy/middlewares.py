@@ -9,6 +9,7 @@ from scrapy import signals
 from scrapy.http import HtmlResponse
 
 from MyScrapy.webdrivers import Webdriver
+import time
 
 
 class MyscrapySpiderMiddleware(object):
@@ -59,22 +60,17 @@ class MyscrapySpiderMiddleware(object):
         spider.logger.info('Spider opened: %s' % spider.name)
 
 
-# ----------------------------------------------------------------------------------------------------------------------
+# -------------------------------------------------------------------------------------------------------------------
 
-# 下载中间件
+# 下载中间件 //
 class MyCustomDownloaderMiddleware(object):
 
     @classmethod
-    def process_request(cls, request, spider):
+    def process_request(cls, request, spider): #此方法一直在单线程中调用
 
-        if request.meta.has_key('Firefox'):
-
+        if request.meta.get('webdriver'):
             Webdriver.get_instance().browser.get(request.url)
             content = Webdriver.get_instance().browser.page_source.encode('utf-8')
-            # browser.get('about:blank')  # 爬坑: 重用时, 一次请求完 重置状态
-            # browser.close()
-            # cls.browser.quit()
-            # return Response(request.url, body=content, request=request)
             return HtmlResponse(request.url, encoding='utf-8', body=content, request=request)
         else:
             return None  # 返回 None, 交给下一个中间件  或者loader 处理

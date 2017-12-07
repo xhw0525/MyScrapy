@@ -2,31 +2,32 @@
 from selenium import webdriver
 import time
 print(time.time())
-service_args=[]
 
-service_args.append('--load-images=no')  ##关闭图片加载
-# service_args.append('--disk-cache=yes')  ##开启缓存
-service_args.append('--ignore-ssl-errors=true') ##忽略https错误
+# ChromeOptions chromeOptions = new ChromeOptions();
+# //        设置为 headless 模式 （必须）
+#         chromeOptions.addArguments("--headless");
+option = webdriver.FirefoxOptions()
+option.add_argument("-headless")
 
-browser = webdriver.PhantomJS('/Users/xhw/PythonU/phantomjs-2.1.1-macosx/bin/phantomjs', service_args=service_args)
-browser.implicitly_wait(10)        ##设置超时时间
-browser.set_page_load_timeout(10)  ##设置超时时间
+browser = webdriver.Firefox(options=option)
 browser.set_window_size(800, 800)
 
-browser.get('http://devdoc.xiaoyouapp.cn/publics/apiList')
-# time.sleep(3)
+# browser.implicitly_wait(10)        ##设置超时时间
+# browser.set_page_load_timeout(10)  ##设置超时时间
 
-# browser.save_screenshot('截图.png')
 
-# list = browser.find_elements_by_css_selector('div')
-# for li in list:
-#     print li.text
+browser.get("https://www.douyu.com/directory/game/yz")
+time.sleep(1)
+js="var q=document.getElementById('mainbody').scrollTop = document.getElementById('mainbody').scrollHeight * 0.1"
+browser.execute_script(js)
 
-print(browser.page_source)
+time.sleep(1)
 
-browser.get('about:blank') #爬坑: 一次请求完 重置状态
-print(time.time())
+print(browser.find_element_by_id('mainbody'))
 
-browser.close()     #close关闭当前页面
+browser.save_screenshot('hahahaha.png')
+
+
 
 browser.quit()    #quit退出浏览器
+print(time.time())

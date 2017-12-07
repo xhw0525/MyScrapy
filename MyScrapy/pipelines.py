@@ -57,6 +57,8 @@ class MyImagesPipeline(ImagesPipeline):
 
     def item_completed(self, results, item, info):
         for ok, x in results:
-            if ok and os.path.exists(Settings.IMAGES_STORE + x['path']):
-                os.rename(Settings.IMAGES_STORE + x['path'], unicode(Settings.IMAGES_STORE + x['path'].replace('full/', '图片/')))
+            if ok and len(item['name']) and os.path.exists(Settings.IMAGES_STORE + x['path']):
+                os.rename(Settings.IMAGES_STORE + x['path'], unicode(Settings.IMAGES_STORE + item['name']+'.jpg'))
+            else:
+                print ('下载失败')
         return item

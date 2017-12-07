@@ -8,23 +8,48 @@ from selenium import webdriver
 
 class Webdriver(object):
 
-    __webdriver = None
+    __web_driver = None
 
-    def __init__(self):
-        option = webdriver.FirefoxOptions()
-        option.add_argument("-headless")
-        self.browser = webdriver.Firefox(options=option)
+    def __init__(self, show_img=True):
+        self.browser = Webdriver.creat_browser_phantomjs(show_img)
         self.browser.set_window_size(800, 800)
-        self.browser.implicitly_wait(5)  ##设置超时时间
-        self.browser.set_page_load_timeout(5)  ##设置超时时间
+
+        self.browser.implicitly_wait(15)  ##设置超时时间
+        self.browser.set_page_load_timeout(15)  ##设置超时时间
 
     @staticmethod
-    def get_instance():
-        if Webdriver.__webdriver is None:
-            Webdriver.__webdriver = Webdriver()
-        return Webdriver.__webdriver
+    def get_instance(show_img=True):
+        if Webdriver.__web_driver is None:
+            Webdriver.__web_driver = Webdriver(show_img)
+        return Webdriver.__web_driver
 
     @staticmethod
     def close():
         if Webdriver.__webdriver is not None:
             Webdriver.__webdriver.browser.quit()
+
+
+
+    @staticmethod
+    def creat_browser_firefox(show_img=True):
+        option = webdriver.FirefoxOptions()
+        # option.set_preference('permissions.default.image', 2) # 禁用图片
+        option.add_argument(
+            'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0')
+        option.add_argument("-headless")
+        browser = webdriver.Firefox(options=option)
+        if not show_img:
+            browser.set_preference('permissions.default.image', 2)
+            # browser.set_preference('browser.migration.version', 9001)
+        return browser
+
+    @staticmethod
+    def creat_browser_phantomjs(show_img=True):
+        service_args = []
+        if not show_img:
+            service_args.append('--load-images=no')  ##关闭图片加载
+        # service_args.append('--disk-cache=yes')  ##开启缓存
+        service_args.append('--ignore-ssl-errors=true')  ##忽略https错误
+        browser = webdriver.PhantomJS('/Users/xhw/PythonU/phantomjs-2.1.1-macosx/bin/phantomjs',
+                                      service_args=service_args)
+        return browser
