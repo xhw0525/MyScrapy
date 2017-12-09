@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="db">
+  <database-model serializer="dbm" rdbms="SQLITE" format-version="4.4">
+    <root id="1"/>
+    <schema id="2" parent="1" name="main">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <collation id="3" parent="1" name="BINARY"/>
+    <collation id="4" parent="1" name="NOCASE"/>
+    <collation id="5" parent="1" name="RTRIM"/>
+    <table id="6" parent="2" name="biaoqian"/>
+    <table id="7" parent="2" name="bugtags_main"/>
+    <table id="8" parent="2" name="bugtags_main_snapshots"/>
+    <table id="9" parent="2" name="bugtags_main_tags"/>
+    <table id="10" parent="2" name="bugtags_main_tags_occurrence_info"/>
+    <table id="11" parent="2" name="bugtags_main_user_data"/>
+    <table id="12" parent="2" name="sqlite_master">
+      <System>1</System>
+    </table>
+    <table id="13" parent="2" name="sqlite_sequence">
+      <System>1</System>
+    </table>
+    <column id="14" parent="6" name="id">
+      <DataType>integer|0</DataType>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="15" parent="6" name="name">
+      <Position>1</Position>
+      <DataType>TEXT|0</DataType>
+    </column>
+    <column id="16" parent="6" name="a">
+      <Position>2</Position>
+      <DataType>TEXT|0</DataType>
+    </column>
+    <key id="17" parent="6">
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="18" parent="7" name="hw_id">
+      <DataType>integer|0</DataType>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="19" parent="7" name="id">
+      <Position>1</Position>
+      <DataType>integer|0</DataType>
+    </column>
+    <column id="20" parent="7" name="app_id">
+      <Position>2</Position>
+      <DataType>integer|0</DataType>
+    </column>
+    <column id="21" parent="7" name="code">
+      <Position>3</Position>
+      <DataType>integer|0</DataType>
+    </column>
+    <column id="22" parent="7" name="description">
+      <Position>4</Position>
+      <DataType>text|0</DataType>
+    </column>
+    <column id="23" parent="7" name="updated_at">
+      <Position>5</Position>
+      <DataType>text|0</DataType>
+    </column>
+    <column id="24" parent="7" name="created_at">
+      <Position>6</Position>
+      <DataType>text|0</DataType>
+    </column>
+    <key id="25" parent="7">
+      <ColNames>hw_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="26" parent="8" name="id">
+      <DataType>integer|0</DataType>
+    </column>
+    <column id="27" parent="8" name="app_id">
+      <Position>1</Position>
+      <DataType>integer|0</DataType>
+    </column>
+    <column id="28" parent="8" name="issue_id">
+      <Position>2</Position>
+      <DataType>integer|0</DataType>
+    </column>
+    <column id="29" parent="8" name="url">
+      <Position>3</Position>
+      <DataType>text|0</DataType>
+    </column>
+    <column id="30" parent="8" name="created_at">
+      <Position>4</Position>
+      <DataType>text|0</DataType>
+    </column>
+    <column id="31" parent="8" name="has_snapshot">
+      <Position>5</Position>
+      <DataType>text|0</DataType>
+    </column>
+    <key id="32" parent="8">
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="33" parent="9" name="id">
+      <DataType>integer|0</DataType>
+    </column>
+    <column id="34" parent="9" name="app_id">
+      <Position>1</Position>
+      <DataType>integer|0</DataType>
+    </column>
+    <column id="35" parent="9" name="issue_id">
+      <Position>2</Position>
+      <DataType>integer|0</DataType>
+    </column>
+    <column id="36" parent="9" name="code">
+      <Position>3</Position>
+      <DataType>integer|0</DataType>
+    </column>
+    <column id="37" parent="9" name="snapshot_id">
+      <Position>4</Position>
+      <DataType>integer|0</DataType>
+    </column>
+    <column id="38" parent="9" name="description">
+      <Position>5</Position>
+      <DataType>text|0</DataType>
+    </column>
+    <column id="39" parent="9" name="updated_at">
+      <Position>6</Position>
+      <DataType>text|0</DataType>
+    </column>
+    <column id="40" parent="9" name="created_at">
+      <Position>7</Position>
+      <DataType>text|0</DataType>
+    </column>
+    <column id="41" parent="9" name="version_name">
+      <Position>8</Position>
+      <DataType>text|0</DataType>
+    </column>
+    <column id="42" parent="9" name="version_code">
+      <Position>9</Position>
+      <DataType>text|0</DataType>
+    </column>
+    <column id="43" parent="9" name="issue_code">
+      <Position>10</Position>
+      <DataType>integer|0</DataType>
+    </column>
+    <column id="44" parent="10" name="hw_id">
+      <DataType>integer|0</DataType>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="45" parent="10" name="tagid">
+      <Position>1</Position>
+      <DataType>integer|0</DataType>
+    </column>
+    <column id="46" parent="10" name="version_name">
+      <Position>2</Position>
+      <DataType>text|0</DataType>
+    </column>
+    <column id="47" parent="10" name="version_code">
+      <Position>3</Position>
+      <DataType>text|0</DataType>
+    </column>
+    <column id="48" parent="10" name="release_state">
+      <Position>4</Position>
+      <DataType>text|0</DataType>
+    </column>
+    <column id="49" parent="10" name="model">
+      <Position>5</Position>
+      <DataType>text|0</DataType>
+    </column>
+    <column id="50" parent="10" name="time">
+      <Position>6</Position>
+      <DataType>text|0</DataType>
+    </column>
+    <column id="51" parent="10" name="time_fmt">
+      <Position>7</Position>
+      <DataType>text|0</DataType>
+    </column>
+    <column id="52" parent="10" name="user_steps">
+      <Position>8</Position>
+      <DataType>text|0</DataType>
+    </column>
+    <column id="53" parent="10" name="user_data">
+      <Position>9</Position>
+      <DataType>text|0</DataType>
+    </column>
+    <column id="54" parent="10" name="console_log">
+      <Position>10</Position>
+      <DataType>text|0</DataType>
+    </column>
+    <column id="55" parent="10" name="crash_log">
+      <Position>11</Position>
+      <DataType>text|0</DataType>
+    </column>
+    <key id="56" parent="10">
+      <ColNames>hw_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="57" parent="11" name="id">
+      <DataType>integer|0</DataType>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="58" parent="11" name="tagid">
+      <Position>1</Position>
+      <DataType>integer|0</DataType>
+    </column>
+    <column id="59" parent="11" name="app_code">
+      <Position>2</Position>
+      <DataType>integer|0</DataType>
+    </column>
+    <column id="60" parent="11" name="name">
+      <Position>3</Position>
+      <DataType>text|0</DataType>
+    </column>
+    <column id="61" parent="11" name="s_uid">
+      <Position>4</Position>
+      <DataType>integer|0</DataType>
+    </column>
+    <column id="62" parent="11" name="uid">
+      <Position>5</Position>
+      <DataType>integer|0</DataType>
+    </column>
+    <column id="63" parent="11" name="s_sid">
+      <Position>6</Position>
+      <DataType>integer|0</DataType>
+    </column>
+    <column id="64" parent="11" name="appname">
+      <Position>7</Position>
+      <DataType>text|0</DataType>
+    </column>
+    <key id="65" parent="11">
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="66" parent="12" name="type">
+      <DataType>text|0</DataType>
+    </column>
+    <column id="67" parent="12" name="name">
+      <Position>1</Position>
+      <DataType>text|0</DataType>
+    </column>
+    <column id="68" parent="12" name="tbl_name">
+      <Position>2</Position>
+      <DataType>text|0</DataType>
+    </column>
+    <column id="69" parent="12" name="rootpage">
+      <Position>3</Position>
+      <DataType>integer|0</DataType>
+    </column>
+    <column id="70" parent="12" name="sql">
+      <Position>4</Position>
+      <DataType>text|0</DataType>
+    </column>
+    <column id="71" parent="13" name="name"/>
+    <column id="72" parent="13" name="seq">
+      <Position>1</Position>
+    </column>
+  </database-model>
+</dataSource>

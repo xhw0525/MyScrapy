@@ -31,7 +31,7 @@ class MyscrapyFilePipeline(object):
 
 class MyscrapyDBPipeline(object):
     def __init__(self):
-        self.conn = sqlite3.connect("db.sqlite3")
+        self.conn = sqlite3.connect(os.path.join(Settings.BASE_DIR, 'result/db.sqlite3'))
 
     def process_item(self, item, spider):
         if spider.name == 'haha':
