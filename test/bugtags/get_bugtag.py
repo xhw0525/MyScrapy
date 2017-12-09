@@ -22,4 +22,4 @@ browser.set_page_load_timeout(60)  ##超时时间
 '1529581119996976' #缘分吧
 '1582738981259327' #小友
 
-method.get_Main(browser, id=u'1529581119996976', load_pages=1, load_all=False, load_user=True, detay_rand=0)
+method.get_Main(browser, id=u'1529581119996976', load_pages=1, load_all=True, load_user=False, detay_rand=0)
