@@ -7,9 +7,8 @@ import time
 import urllib2
 page = 1
 page_i = 1
-max_tags = 10 #只获取前10个tagsid
 
-def get_Main(browser, id, load_pages = 5, load_all=False, load_user=False, detay_rand = 0.2):
+def get_Main(browser, id, load_pages = 5, load_all=False,max_tags = 5, load_user=False, detay_rand = 0.2):
     global page
     global page_i
 
@@ -33,7 +32,7 @@ def get_Main(browser, id, load_pages = 5, load_all=False, load_user=False, detay
         page_i = 1
         if load_all or load_user:
             for child_id in ids:
-                get_tags(browser,pid=id, id=child_id, load_user=load_user)
+                get_tags(browser,pid=id, id=child_id, load_user=load_user,max_tags = max_tags)
                 page_i += 1
         # if not jsonp['data']['has_more']:
         #     break
@@ -44,7 +43,7 @@ def get_Main(browser, id, load_pages = 5, load_all=False, load_user=False, detay
 
 
 
-def get_tags(browser,pid,id,load_user=False, detay_rand = 0.2):
+def get_tags(browser,pid,id,load_user=False,max_tags=5, detay_rand = 0.2):
     global page_i
 
     for i in range(0, max_tags):
@@ -66,15 +65,15 @@ def get_tags(browser,pid,id,load_user=False, detay_rand = 0.2):
         user_datas =db_my.sava_db_tags(jsons)
 
         if load_user:
-            get_user_datas(browser, user_datas)
+            get_user_datas(browser, user_datas,max_tags)
 
         if not jsonp['data']['has_more']:
             break
 
 
 
-def get_user_datas(browser, user_datas, detay_rand = 0.2):
-    if user_datas is None or len(user_datas)==0:
+def get_user_datas(browser, user_datas,max_tags, detay_rand = 0.2):
+    if user_datas is None or len(user_datas) == 0:
         return
     for i in range(0, len(user_datas)):
         tagid, user_url = user_datas[i]

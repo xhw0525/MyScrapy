@@ -2,6 +2,8 @@ DROP TABLE if exists bugtags_main ;
 DROP TABLE if exists bugtags_main_tags ;
 DROP TABLE if exists bugtags_main_snapshots ;
 DROP TABLE if exists bugtags_main_tags_occurrence_info ;
+DROP TABLE IF EXISTS bugtags_main_user_data;
+
 
 CREATE TABLE if not exists bugtags_main
 (
@@ -29,7 +31,7 @@ created_at	text --,
 
 CREATE TABLE if not exists bugtags_main_tags
 (
-id integer,
+id integer PRIMARY KEY,
 app_id	integer,
 issue_id	integer,
 code	integer,

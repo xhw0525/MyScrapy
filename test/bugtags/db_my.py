@@ -70,12 +70,12 @@ issue_code
         if 'description' in jsons[i].keys():
             description = jsons[i]['description']
         else:
-            description = 'nil'
+            description = None
 
         if 'updated_at' in jsons[i].keys():
             updated_at = jsons[i]['updated_at']
         else:
-            updated_at = 'nil'
+            updated_at = None
 
         if 'issue_code' in jsons[i].keys():
             issue_code = jsons[i]['issue_code']

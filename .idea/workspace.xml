@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6bd52b6-3d2f-4972-98cd-933886b7ad2d" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/483d1b31-86b0-4803-bd7f-ecfec74757f5/_metadata_/metadata" afterPath="$PROJECT_DIR$/.idea/dataSources/483d1b31-86b0-4803-bd7f-ecfec74757f5/_metadata_/metadata" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/483d1b31-86b0-4803-bd7f-ecfec74757f5/_metadata_/metadata.values.at" afterPath="$PROJECT_DIR$/.idea/dataSources/483d1b31-86b0-4803-bd7f-ecfec74757f5/_metadata_/metadata.values.at" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/483d1b31-86b0-4803-bd7f-ecfec74757f5.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/483d1b31-86b0-4803-bd7f-ecfec74757f5.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/bugtags/bugtags.sql" afterPath="$PROJECT_DIR$/test/bugtags/bugtags.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/bugtags/db_my.py" afterPath="$PROJECT_DIR$/test/bugtags/db_my.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/bugtags/get_bugtag.py" afterPath="$PROJECT_DIR$/test/bugtags/get_bugtag.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/bugtags/method.py" afterPath="$PROJECT_DIR$/test/bugtags/method.py" />
     </list>
@@ -14,7 +19,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/MyScrapy$get_bugtag.coverage" NAME="get_bugtag Coverage Results" MODIFIED="1512839269138" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/bugtags" />
+    <SUITE FILE_PATH="coverage/MyScrapy$get_bugtag.coverage" NAME="get_bugtag Coverage Results" MODIFIED="1512899810738" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/bugtags" />
     <SUITE FILE_PATH="coverage/MyScrapy$.coverage" NAME="自动添加接口 Coverage Results" MODIFIED="1512724474771" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/MyScrapy$test.coverage" NAME="test Coverage Results" MODIFIED="1512716964369" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/MyScrapy$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1512835873556" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -54,22 +59,39 @@
       <file leaf-file-name="get_bugtag.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/bugtags/get_bugtag.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="24" column="76" lean-forward="false" selection-start-line="24" selection-start-column="76" selection-end-line="24" selection-end-column="76" />
-              <folding>
-                <element signature="e#24#54#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="396">
+              <caret line="24" column="92" lean-forward="false" selection-start-line="24" selection-start-column="92" selection-end-line="24" selection-end-column="92" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="method.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="bugtags_main_tags" pinned="false" current-in-tab="false">
+        <entry file="das://table:/6882d4b9/483d1b31-86b0-4803-bd7f-ecfec74757f5/main.bugtags_main_tags">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="method.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/bugtags/method.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            <state relative-caret-position="1260">
+              <caret line="74" column="18" lean-forward="false" selection-start-line="74" selection-start-column="4" selection-end-line="74" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="db_my.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/bugtags/db_my.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1152">
+              <caret line="66" column="13" lean-forward="false" selection-start-line="66" selection-start-column="13" selection-end-line="66" selection-end-column="13" />
               <folding>
-                <element signature="e#25#37#0" expanded="true" />
+                <element signature="e#24#37#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -78,9 +100,49 @@
       <file leaf-file-name="console.sql" pinned="false" current-in-tab="false">
         <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/483d1b31-86b0-4803-bd7f-ecfec74757f5/console.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="15" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="104" selection-end-column="59" />
+            <state relative-caret-position="123">
+              <caret line="7" column="22" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="106" selection-end-column="59" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bugtags.sql" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/bugtags/bugtags.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1366">
+              <caret line="106" column="59" lean-forward="false" selection-start-line="106" selection-start-column="59" selection-end-line="106" selection-end-column="59" />
+              <folding>
+                <marker date="1512905110938" expanded="true" signature="2032:2087" ph="DELETE FROM " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bugtags_main_user_data" pinned="false" current-in-tab="false">
+        <entry file="das://table:/6882d4b9/483d1b31-86b0-4803-bd7f-ecfec74757f5/main.bugtags_main_user_data">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="console_1.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/483d1b31-86b0-4803-bd7f-ecfec74757f5/console_1.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bugtags_main_tags_occurrence_info" pinned="false" current-in-tab="false">
+        <entry file="das://table:/6882d4b9/483d1b31-86b0-4803-bd7f-ecfec74757f5/main.bugtags_main_tags_occurrence_info">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
             </state>
           </provider>
         </entry>
@@ -96,13 +158,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>db.</find>
-      <find>112.80.204.136</find>
-      <find>lines</find>
-      <find>USER_AGENT</find>
-      <find>cookie_dict</find>
-      <find>,</find>
-      <find>jsonp</find>
       <find>]),</find>
       <find>page</find>
       <find>jsons</find>
@@ -117,8 +172,6 @@
       <find>0.2</find>
       <find>del</find>
       <find>detal_rand</find>
-      <find>get_user_datas</find>
-      <find>sava_db_occurrence_infos</find>
       <find>integerEGER</find>
       <find>log</find>
       <find>tagid</find>
@@ -126,6 +179,15 @@
       <find>../result/</find>
       <find>print</find>
       <find>index</find>
+      <find>max_tags</find>
+      <find>user_datas</find>
+      <find>bugtags_main_user_data</find>
+      <find>get_user_data</find>
+      <find>sava_db_user_data</find>
+      <find>get_user_datas</find>
+      <find>bugtags_main_tags_occurrence_info</find>
+      <find>nil</find>
+      <find>sava_db_occurrence_infos</find>
     </findStrings>
     <replaceStrings>
       <replace>__web_driver</replace>
@@ -174,17 +236,17 @@
         <option value="$PROJECT_DIR$/MyScrapy/settings.py" />
         <option value="$PROJECT_DIR$/test/bugtags.sq" />
         <option value="$PROJECT_DIR$/MyScrapy/pipelines.py" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/483d1b31-86b0-4803-bd7f-ecfec74757f5/console_1.sql" />
         <option value="$PROJECT_DIR$/test/test2.py" />
         <option value="$PROJECT_DIR$/test/bugtags/D.py" />
         <option value="$PROJECT_DIR$/test/bugtags/test2.py" />
         <option value="$PROJECT_DIR$/README_WebDriver.md" />
         <option value="$PROJECT_DIR$/test/bugtags.sql" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/483d1b31-86b0-4803-bd7f-ecfec74757f5/console.sql" />
-        <option value="$PROJECT_DIR$/test/bugtags/bugtags.sql" />
-        <option value="$PROJECT_DIR$/test/bugtags/db_my.py" />
-        <option value="$PROJECT_DIR$/test/bugtags/get_bugtag.py" />
         <option value="$PROJECT_DIR$/test/bugtags/method.py" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/483d1b31-86b0-4803-bd7f-ecfec74757f5/console.sql" />
+        <option value="$PROJECT_DIR$/test/bugtags/get_bugtag.py" />
+        <option value="$PROJECT_DIR$/test/bugtags/db_my.py" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/483d1b31-86b0-4803-bd7f-ecfec74757f5/console_1.sql" />
+        <option value="$PROJECT_DIR$/test/bugtags/bugtags.sql" />
       </list>
     </option>
   </component>
@@ -195,7 +257,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
+    <option name="x" value="267" />
+    <option name="y" value="38" />
     <option name="width" value="1440" />
     <option name="height" value="813" />
   </component>
@@ -214,22 +277,14 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="MyScrapy" type="b2602c69:ProjectViewProjectNode" />
               <item name="MyScrapy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyScrapy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyScrapy" type="462c0819:PsiDirectoryNode" />
-              <item name="MyScrapy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyScrapy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyScrapy" type="462c0819:PsiDirectoryNode" />
-              <item name="result" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MyScrapy" type="b2602c69:ProjectViewProjectNode" />
@@ -246,8 +301,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -338,20 +391,27 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="813" extended-state="6" />
-    <editor active="true" />
+    <frame x="267" y="38" width="1440" height="813" extended-state="0" />
     <layout>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29971388" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32729805" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32718894" sideWeight="0.502442" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3649025" sideWeight="0.497558" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32949308" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34401113" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3593315" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28683835" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21959943" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3649025" sideWeight="0.497558" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32729805" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286908" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34261838" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39976957" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -359,6 +419,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.61559886" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286908" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -379,41 +440,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="das://table:/6882d4b9/483d1b31-86b0-4803-bd7f-ecfec74757f5/main.biaoqian">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/6882d4b9/483d1b31-86b0-4803-bd7f-ecfec74757f5/main.bugtags_tags">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/483d1b31-86b0-4803-bd7f-ecfec74757f5/console_2.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/6882d4b9/483d1b31-86b0-4803-bd7f-ecfec74757f5/main.bugtags_detail">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/6882d4b9/483d1b31-86b0-4803-bd7f-ecfec74757f5/main.bugtags_detail">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="das://table:/6882d4b9/483d1b31-86b0-4803-bd7f-ecfec74757f5/main.bugtags_detail">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -537,9 +563,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="128">
           <caret line="26" column="43" lean-forward="false" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="43" />
-          <folding>
-            <element signature="e#24#54#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -634,16 +657,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/bugtags/bugtags.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="11" lean-forward="true" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
-          <folding>
-            <marker date="1512836604732" expanded="true" signature="1974:2029" ph="DELETE FROM " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="das://table:/6882d4b9/483d1b31-86b0-4803-bd7f-ecfec74757f5/main.bugtags_main_user_data">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -673,37 +686,6 @@
       </provider>
     </entry>
     <entry file="das://table:/6882d4b9/483d1b31-86b0-4803-bd7f-ecfec74757f5/main.bugtags_main_user_data">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/6882d4b9/483d1b31-86b0-4803-bd7f-ecfec74757f5/main.bugtags_main_user_data">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/6882d4b9/483d1b31-86b0-4803-bd7f-ecfec74757f5/main.bugtags_main_tags_occurrence_info">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/bugtags/db_my.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="170" column="33" lean-forward="false" selection-start-line="170" selection-start-column="13" selection-end-line="170" selection-end-column="33" />
-          <folding>
-            <element signature="e#24#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/6882d4b9/483d1b31-86b0-4803-bd7f-ecfec74757f5/main.bugtags_main">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
@@ -717,6 +699,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="das://table:/6882d4b9/483d1b31-86b0-4803-bd7f-ecfec74757f5/main.bugtags_main">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://src:table:/6882d4b9/483d1b31-86b0-4803-bd7f-ecfec74757f5/main.bugtags_main_user_data">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/483d1b31-86b0-4803-bd7f-ecfec74757f5/console_2.sql" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/483d1b31-86b0-4803-bd7f-ecfec74757f5/console_4.sql" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/483d1b31-86b0-4803-bd7f-ecfec74757f5/console_3.sql" />
     <entry file="das://table:/6882d4b9/483d1b31-86b0-4803-bd7f-ecfec74757f5/main.bugtags_main_tags">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -724,30 +723,68 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/483d1b31-86b0-4803-bd7f-ecfec74757f5/console.sql">
+    <entry file="das://table:/6882d4b9/483d1b31-86b0-4803-bd7f-ecfec74757f5/main.bugtags_main_tags_occurrence_info">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/6882d4b9/483d1b31-86b0-4803-bd7f-ecfec74757f5/main.bugtags_main_user_data">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/bugtags/method.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="15" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="104" selection-end-column="59" />
+        <state relative-caret-position="1260">
+          <caret line="74" column="18" lean-forward="false" selection-start-line="74" selection-start-column="4" selection-end-line="74" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/bugtags/get_bugtag.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="24" column="76" lean-forward="false" selection-start-line="24" selection-start-column="76" selection-end-line="24" selection-end-column="76" />
+        <state relative-caret-position="396">
+          <caret line="24" column="92" lean-forward="false" selection-start-line="24" selection-start-column="92" selection-end-line="24" selection-end-column="92" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/bugtags/db_my.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1152">
+          <caret line="66" column="13" lean-forward="false" selection-start-line="66" selection-start-column="13" selection-end-line="66" selection-end-column="13" />
           <folding>
-            <element signature="e#24#54#0" expanded="true" />
+            <element signature="e#24#37#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/bugtags/method.py">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/483d1b31-86b0-4803-bd7f-ecfec74757f5/console_1.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        <state relative-caret-position="54">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/483d1b31-86b0-4803-bd7f-ecfec74757f5/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="7" column="22" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="106" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/bugtags/bugtags.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1366">
+          <caret line="106" column="59" lean-forward="false" selection-start-line="106" selection-start-column="59" selection-end-line="106" selection-end-column="59" />
           <folding>
-            <element signature="e#25#37#0" expanded="true" />
+            <marker date="1512905110938" expanded="true" signature="2032:2087" ph="DELETE FROM " />
           </folding>
         </state>
       </provider>
