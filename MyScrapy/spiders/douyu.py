@@ -34,10 +34,10 @@ class DouyuSpider(mybasespider.WebdriverSpider):
                 yield item
 
         self.count += 1
-        if  self.count == 6:
+        if  self.count == 16:
             return
         request = Request('https://www.douyu.com/directory/game/yz'+ str(self.count), dont_filter=True)
         request.meta['webdriver'] = True
-        request.meta['nexaa'] = True
+        request.meta['xiayiye'] = True
         yield request
 

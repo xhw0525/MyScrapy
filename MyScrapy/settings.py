@@ -57,8 +57,8 @@ SPIDER_MIDDLEWARES = {
 # Enable or disable downloader middlewares
 # See http://scrapy.readthedocs.org/en/latest/topics/downloader-middleware.html
 DOWNLOADER_MIDDLEWARES = {
-   'MyScrapy.middlewares.MyCustomDownloaderMiddleware': 500,
-    'MyScrapy.middlewares.DouYUDownloaderMiddleware': 100,
+   # 'MyScrapy.middlewares.MyCustomDownloaderMiddleware': 500,
+    # 'MyScrapy.middlewares.DouYUDownloaderMiddleware': 100,
 
 }
 

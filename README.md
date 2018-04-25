@@ -3,7 +3,9 @@ source ~/PythonU/bin/activate; cd ~/PycharmProjects/MyScrapy;
 
 #   scrapy startproject project_name
 #   scrapy genspider [-t template] <name> <domain>
+
 #   scrapy genspider haha www.baidu.com
+scrapy genspider OneSpider "www.baidu.com"
 
 crawl
 scrapy crawl <spider>

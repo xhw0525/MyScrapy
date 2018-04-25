@@ -29,7 +29,7 @@ class Webdriver(object):
             Webdriver.__webdriver.browser.quit()
 
 
-
+    # 创建火狐浏览器
     @staticmethod
     def creat_browser_firefox(show_img=True):
         option = webdriver.FirefoxOptions()
@@ -43,6 +43,7 @@ class Webdriver(object):
             # browser.set_preference('browser.migration.version', 9001)
         return browser
 
+    # 创建phantomjs
     @staticmethod
     def creat_browser_phantomjs(show_img=True):
         service_args = []
@@ -52,4 +53,15 @@ class Webdriver(object):
         service_args.append('--ignore-ssl-errors=true')  ##忽略https错误
         browser = webdriver.PhantomJS('/Users/xhw/PythonV/phantomjs-2.1.1-macosx/bin/phantomjs',
                                       service_args=service_args)
+        return browser
+
+    # 创建火狐浏览器
+    @staticmethod
+    def creat_browser_safar(show_img=True):
+        browser = webdriver.Safari()
+        browser.set_window_size(1000, 800)
+        browser.implicitly_wait(30)  # 隐式等待
+        browser.set_page_load_timeout(60)  ##超时时间
+        if not show_img:
+            pass
         return browser

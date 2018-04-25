@@ -83,8 +83,12 @@ class DouYUDownloaderMiddleware(object):
     def process_request(cls, request, spider): #此方法一直在单线程中调用
 
         if request.meta.get('webdriver'):
-            if request.meta.get('nexaa'):
-                Webdriver.get_instance().browser.find_element_by_xpath('//a[@class="shark-pager-next"]').click()
+            if request.meta.get('xiayiye'):
+                view = Webdriver.get_instance().browser.find_element_by_xpath('//a[@class="shark-pager-next"]')
+                if view:
+                    view.click()
+                else:
+                    return
             else:
                 Webdriver.get_instance().browser.get(request.url)
             js = "var q=document.getElementById('mainbody').scrollTop = 100000"
