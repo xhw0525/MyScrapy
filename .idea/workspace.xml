@@ -2,18 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6bd52b6-3d2f-4972-98cd-933886b7ad2d" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/GetProxy.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/bugtags/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/bugtags/bugtags.sql" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/bugtags/db_my.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/bugtags/get_bugtag.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/bugtags/method.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/test.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/test1.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/test代理.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/自动添加接口.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dataSources/483d1b31-86b0-4803-bd7f-ecfec74757f5.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/其他脚本测试/MySelenium/normal/haha.json" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/MyScrapy.iml" afterPath="$PROJECT_DIR$/.idea/MyScrapy.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/其他脚本测试/MySelenium/normal/Safari.py" afterPath="$PROJECT_DIR$/其他脚本测试/MySelenium/normal/Safari.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,10 +22,12 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/MyScrapy$get_bugtag.coverage" NAME="get_bugtag Coverage Results" MODIFIED="1512899810738" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/bugtags" />
     <SUITE FILE_PATH="coverage/MyScrapy$.coverage" NAME="自动添加接口 Coverage Results" MODIFIED="1512724474771" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/MyScrapy$douyu.coverage" NAME="douyu Coverage Results" MODIFIED="1524642890451" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MyScrapy/spiders" />
     <SUITE FILE_PATH="coverage/MyScrapy$test.coverage" NAME="test Coverage Results" MODIFIED="1512716964369" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/MyScrapy$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1512835873556" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/MyScrapy$test5.coverage" NAME="test5 Coverage Results" MODIFIED="1512630733518" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/MyScrapy$db_my.coverage" NAME="db_my Coverage Results" MODIFIED="1512826633174" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/bugtags" />
+    <SUITE FILE_PATH="coverage/MyScrapy$Safari.coverage" NAME="Safari Coverage Results" MODIFIED="1524642669817" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/其他脚本测试/MySelenium/normal" />
     <SUITE FILE_PATH="coverage/MyScrapy$method.coverage" NAME="method Coverage Results" MODIFIED="1512810131625" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/bugtags" />
     <SUITE FILE_PATH="coverage/MyScrapy$test6.coverage" NAME="test6 Coverage Results" MODIFIED="1512636311075" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/MyScrapy$test4__1_.coverage" NAME="test4 (1) Coverage Results" MODIFIED="1512653112901" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -55,29 +54,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="bugtags_main_tags" pinned="false" current-in-tab="true">
-        <entry file="das://table:/6882d4b9/483d1b31-86b0-4803-bd7f-ecfec74757f5/main.bugtags_main_tags">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bugtags_main_user_data" pinned="false" current-in-tab="false">
-        <entry file="das://table:/6882d4b9/483d1b31-86b0-4803-bd7f-ecfec74757f5/main.bugtags_main_user_data">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bugtags_main_tags_occurrence_info" pinned="false" current-in-tab="false">
-        <entry file="das://table:/6882d4b9/483d1b31-86b0-4803-bd7f-ecfec74757f5/main.bugtags_main_tags_occurrence_info">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
+      <file leaf-file-name="douyu.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/MyScrapy/spiders/douyu.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="284">
+              <caret line="33" column="26" lean-forward="true" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -93,12 +75,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>]),</find>
-      <find>page</find>
-      <find>jsons</find>
-      <find>page_detail</find>
-      <find>sava_db_snapshots</find>
-      <find>sava_db_tags</find>
       <find>INTEGER</find>
       <find>* 3</find>
       <find>1</find>
@@ -123,6 +99,12 @@
       <find>bugtags_main_tags_occurrence_info</find>
       <find>nil</find>
       <find>sava_db_occurrence_infos</find>
+      <find>nexaa</find>
+      <find>下载失败</find>
+      <find>DouYUDownloaderMiddleware</find>
+      <find>haha</find>
+      <find>MyscrapySpiderMiddleware</find>
+      <find>aa</find>
     </findStrings>
     <replaceStrings>
       <replace>__web_driver</replace>
@@ -149,14 +131,9 @@
         <option value="$PROJECT_DIR$/test/test6.py" />
         <option value="$PROJECT_DIR$/MyScrapy/spiders/BaseSpider.py" />
         <option value="$PROJECT_DIR$/MyScrapy/spiders/WebdriverSpider.py" />
-        <option value="$PROJECT_DIR$/MyScrapy/spiders/Image.py" />
         <option value="$PROJECT_DIR$/MyScrapy/spiders/JieKou.py" />
         <option value="$PROJECT_DIR$/MyScrapy/spiders/haha.py" />
-        <option value="$PROJECT_DIR$/MyScrapy/webdrivers.py" />
-        <option value="$PROJECT_DIR$/MyScrapy/spiders/mybasespider.py" />
         <option value="$PROJECT_DIR$/logmy.txt" />
-        <option value="$PROJECT_DIR$/MyScrapy/spiders/douyu.py" />
-        <option value="$PROJECT_DIR$/MyScrapy/middlewares.py" />
         <option value="$PROJECT_DIR$/test/test3.py" />
         <option value="$PROJECT_DIR$/test/test4.py" />
         <option value="$PROJECT_DIR$/test/test1.py" />
@@ -168,7 +145,6 @@
         <option value="$PROJECT_DIR$/test/GetProxy.py" />
         <option value="$PROJECT_DIR$/result/可用代理.txt" />
         <option value="$PROJECT_DIR$/MyScrapy/spiders/bugtags.py" />
-        <option value="$PROJECT_DIR$/MyScrapy/settings.py" />
         <option value="$PROJECT_DIR$/test/bugtags.sq" />
         <option value="$PROJECT_DIR$/MyScrapy/pipelines.py" />
         <option value="$PROJECT_DIR$/test/test2.py" />
@@ -182,6 +158,18 @@
         <option value="$PROJECT_DIR$/test/bugtags/db_my.py" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/483d1b31-86b0-4803-bd7f-ecfec74757f5/console_1.sql" />
         <option value="$PROJECT_DIR$/test/bugtags/bugtags.sql" />
+        <option value="$PROJECT_DIR$/MyScrapy/spiders/Image.py" />
+        <option value="$PROJECT_DIR$/MyScrapy/spiders/mybasespider.py" />
+        <option value="$PROJECT_DIR$/MyScrapy/webdrivers.py" />
+        <option value="$PROJECT_DIR$/MyScrapy/spiders/douyu.py" />
+        <option value="$PROJECT_DIR$/ghostdriver.log" />
+        <option value="$PROJECT_DIR$/MyScrapy/middlewares.py" />
+        <option value="src:table:/6882d4b9/7c418644-8ae1-471b-9bbc-0b71e6c9a3ae/main.biaoqian" />
+        <option value="$PROJECT_DIR$/MyScrapy/settings.py" />
+        <option value="$PROJECT_DIR$/其他脚本测试/get_bug_tags/get_bugtag.py" />
+        <option value="$PROJECT_DIR$/其他脚本测试/MySelenium/normal/haha.json" />
+        <option value="$PROJECT_DIR$/其他脚本测试/MySelenium/normal/Safari.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -192,9 +180,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="811" />
+    <option name="x" value="619" />
+    <option name="y" value="280" />
+    <option name="width" value="1874" />
+    <option name="height" value="942" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -211,6 +200,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -219,30 +209,28 @@
               <item name="MyScrapy" type="b2602c69:ProjectViewProjectNode" />
               <item name="MyScrapy" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="MyScrapy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyScrapy" type="462c0819:PsiDirectoryNode" />
-              <item name="MyScrapy" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Python" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="DDL Data Source" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/其他脚本测试/MySelenium/normal" />
       <recent name="$PROJECT_DIR$/test" />
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/其他脚本测试/MySelenium" />
+      <recent name="$PROJECT_DIR$/其他脚本测试" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/test/bugtags" />
       <recent name="$PROJECT_DIR$/result" />
     </key>
@@ -258,53 +246,6 @@
         </RuleState>
       </list>
     </option>
-  </component>
-  <component name="RunManager" selected="Python.get_bugtag">
-    <configuration name="get_bugtag" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/bugtags" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="MyScrapy" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/bugtags/get_bugtag.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="MyScrapy" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/phantomjs.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
-    <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="Python.get_bugtag" />
-      <item index="1" class="java.lang.String" itemvalue="Python.test" />
-    </list>
-    <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Python.get_bugtag" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -329,19 +270,19 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="811" extended-state="0" />
+    <frame x="619" y="280" width="1874" height="942" extended-state="0" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31688127" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2625546" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32729805" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32718894" sideWeight="0.502442" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21959943" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3649025" sideWeight="0.497558" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32729805" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286908" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16757642" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3270366" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32821724" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.364817" sideWeight="0.497558" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34261838" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39976957" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28807557" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39976957" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -368,335 +309,254 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="das://table:/6882d4b9/483d1b31-86b0-4803-bd7f-ecfec74757f5/main.bugtags_detail">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/6882d4b9/483d1b31-86b0-4803-bd7f-ecfec74757f5/main.bugtags_detail">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/6882d4b9/483d1b31-86b0-4803-bd7f-ecfec74757f5/main.bugtags_detail">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/6882d4b9/483d1b31-86b0-4803-bd7f-ecfec74757f5/main.bugtags_main_user_data">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/6882d4b9/483d1b31-86b0-4803-bd7f-ecfec74757f5/main.bugtags_main_user_data">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/6882d4b9/483d1b31-86b0-4803-bd7f-ecfec74757f5/main.bugtags_main_user_data">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/6882d4b9/483d1b31-86b0-4803-bd7f-ecfec74757f5/main.bugtags_main_user_data">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/6882d4b9/483d1b31-86b0-4803-bd7f-ecfec74757f5/main.bugtags_main_user_data">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/6882d4b9/483d1b31-86b0-4803-bd7f-ecfec74757f5/main.bugtags_main_user_data">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MyScrapy/settings.py">
+    <entry file="das://table:/6882d4b9/483d1b31-86b0-4803-bd7f-ecfec74757f5/main.bugtags_main_snapshots" />
+    <entry file="das://table:/6882d4b9/483d1b31-86b0-4803-bd7f-ecfec74757f5/main.bugtags_main" />
+    <entry file="das://src:table:/6882d4b9/483d1b31-86b0-4803-bd7f-ecfec74757f5/main.bugtags_main_user_data" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/483d1b31-86b0-4803-bd7f-ecfec74757f5/console_2.sql" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/483d1b31-86b0-4803-bd7f-ecfec74757f5/console_4.sql" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/483d1b31-86b0-4803-bd7f-ecfec74757f5/console_3.sql" />
+    <entry file="das://table:/6882d4b9/483d1b31-86b0-4803-bd7f-ecfec74757f5/main.bugtags_main_tags" />
+    <entry file="das://table:/6882d4b9/483d1b31-86b0-4803-bd7f-ecfec74757f5/main.bugtags_main_tags_occurrence_info" />
+    <entry file="das://table:/6882d4b9/483d1b31-86b0-4803-bd7f-ecfec74757f5/main.bugtags_main_user_data" />
+    <entry file="file://$PROJECT_DIR$/test/bugtags/method.py" />
+    <entry file="file://$PROJECT_DIR$/test/bugtags/get_bugtag.py" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/483d1b31-86b0-4803-bd7f-ecfec74757f5/console_1.sql" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/483d1b31-86b0-4803-bd7f-ecfec74757f5/console.sql" />
+    <entry file="file://$PROJECT_DIR$/test/bugtags/bugtags.sql" />
+    <entry file="file://$PROJECT_DIR$/test/bugtags/db_my.py" />
+    <entry file="file://$PROJECT_DIR$/test/selenium_auto.py" />
+    <entry file="file://$PROJECT_DIR$/test/phantomjs.py" />
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="33" column="12" lean-forward="false" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="16" />
+        <state relative-caret-position="0">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="das://table:/6882d4b9/483d1b31-86b0-4803-bd7f-ecfec74757f5/main.bugtags_main_user_data">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/6882d4b9/483d1b31-86b0-4803-bd7f-ecfec74757f5/main.bugtags_main_user_data">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/6882d4b9/483d1b31-86b0-4803-bd7f-ecfec74757f5/main.bugtags_main_user_data">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/6882d4b9/483d1b31-86b0-4803-bd7f-ecfec74757f5/main.bugtags_main_user_data">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/6882d4b9/483d1b31-86b0-4803-bd7f-ecfec74757f5/main.bugtags_main">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/6882d4b9/483d1b31-86b0-4803-bd7f-ecfec74757f5/main.bugtags_main_user_data">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test1.py">
+    <entry file="file://$PROJECT_DIR$/scrapy.cfg">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="17" column="39" lean-forward="false" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/test代理.py">
+    <entry file="file://$PROJECT_DIR$/README_WebDriver.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-91">
-          <caret line="7" column="16" lean-forward="false" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        <state relative-caret-position="170">
+          <caret line="10" column="26" lean-forward="false" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="das://table:/6882d4b9/483d1b31-86b0-4803-bd7f-ecfec74757f5/main.bugtags_main_user_data">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/6882d4b9/483d1b31-86b0-4803-bd7f-ecfec74757f5/main.bugtags_main_user_data">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/6882d4b9/483d1b31-86b0-4803-bd7f-ecfec74757f5/main.bugtags_main_user_data">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/6882d4b9/483d1b31-86b0-4803-bd7f-ecfec74757f5/main.bugtags_main_user_data">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/6882d4b9/483d1b31-86b0-4803-bd7f-ecfec74757f5/main.bugtags_main_user_data">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/6882d4b9/483d1b31-86b0-4803-bd7f-ecfec74757f5/main.bugtags_main_user_data">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/6882d4b9/483d1b31-86b0-4803-bd7f-ecfec74757f5/main.bugtags_main_user_data">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/6882d4b9/483d1b31-86b0-4803-bd7f-ecfec74757f5/main.bugtags_main_user_data">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/6882d4b9/483d1b31-86b0-4803-bd7f-ecfec74757f5/main.bugtags_main_user_data">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/6882d4b9/483d1b31-86b0-4803-bd7f-ecfec74757f5/main.bugtags_main_user_data">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/6882d4b9/483d1b31-86b0-4803-bd7f-ecfec74757f5/main.bugtags_main_user_data">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/6882d4b9/483d1b31-86b0-4803-bd7f-ecfec74757f5/main.bugtags_main_user_data">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/6882d4b9/483d1b31-86b0-4803-bd7f-ecfec74757f5/main.bugtags_main">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/6882d4b9/483d1b31-86b0-4803-bd7f-ecfec74757f5/main.bugtags_main">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/6882d4b9/483d1b31-86b0-4803-bd7f-ecfec74757f5/main.bugtags_main_user_data">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/6882d4b9/483d1b31-86b0-4803-bd7f-ecfec74757f5/main.bugtags_main_user_data">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/6882d4b9/483d1b31-86b0-4803-bd7f-ecfec74757f5/main.bugtags_main_snapshots">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/6882d4b9/483d1b31-86b0-4803-bd7f-ecfec74757f5/main.bugtags_main">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://src:table:/6882d4b9/483d1b31-86b0-4803-bd7f-ecfec74757f5/main.bugtags_main_user_data">
+    <entry file="file://$PROJECT_DIR$/MyScrapy/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/483d1b31-86b0-4803-bd7f-ecfec74757f5/console_2.sql" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/483d1b31-86b0-4803-bd7f-ecfec74757f5/console_4.sql" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/483d1b31-86b0-4803-bd7f-ecfec74757f5/console_3.sql" />
-    <entry file="das://table:/6882d4b9/483d1b31-86b0-4803-bd7f-ecfec74757f5/main.bugtags_main_tags">
+    <entry file="file://$PROJECT_DIR$/MyScrapy/items.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="24" lean-forward="false" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/result/files/Annie姗儿.jpg" />
+    <entry file="file://$PROJECT_DIR$/result/files/吃鸡小姨子6神.jpg" />
+    <entry file="file://$PROJECT_DIR$/ghostdriver.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyScrapy/webdrivers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="39" column="51" lean-forward="false" selection-start-line="39" selection-start-column="51" selection-end-line="39" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://src:table:/6882d4b9/7c418644-8ae1-471b-9bbc-0b71e6c9a3ae/main.biaoqian">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="22" lean-forward="true" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyScrapy/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="36" column="31" lean-forward="false" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/6882d4b9/7c418644-8ae1-471b-9bbc-0b71e6c9a3ae/main.biaoqian">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
         </state>
       </provider>
     </entry>
-    <entry file="das://table:/6882d4b9/483d1b31-86b0-4803-bd7f-ecfec74757f5/main.bugtags_main_tags_occurrence_info">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
+    <entry file="file://$PROJECT_DIR$/result/files/677小小窜条鼠.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="das://table:/6882d4b9/483d1b31-86b0-4803-bd7f-ecfec74757f5/main.bugtags_main_user_data">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/bugtags/method.py">
+    <entry file="file://$PROJECT_DIR$/MyScrapy/middlewares.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1050">
-          <caret line="74" column="18" lean-forward="false" selection-start-line="74" selection-start-column="4" selection-end-line="74" selection-end-column="18" />
+        <state relative-caret-position="100">
+          <caret line="52" column="53" lean-forward="false" selection-start-line="52" selection-start-column="53" selection-end-line="52" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyScrapy/spiders/bugtags.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/其他脚本测试/MySelenium/normal/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/其他脚本测试/get_bug_tags/bugtags.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1353">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/其他脚本测试/get_bug_tags/method.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/其他脚本测试/get_bug_tags/db_my.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2485">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/其他脚本测试/get_bug_tags/get_bugtag.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="9" column="44" lean-forward="false" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/其他脚本测试/MySelenium/test/phantomjs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="9" column="40" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/其他脚本测试/MySelenium/normal/ghostdriver.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/bugtags/get_bugtag.py">
+    <entry file="file://$PROJECT_DIR$/其他脚本测试/MySelenium/normal/haha.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="24" column="92" lean-forward="false" selection-start-line="24" selection-start-column="92" selection-end-line="24" selection-end-column="92" />
+        <state relative-caret-position="391">
+          <caret line="23" column="19" lean-forward="true" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/483d1b31-86b0-4803-bd7f-ecfec74757f5/console_1.sql" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/483d1b31-86b0-4803-bd7f-ecfec74757f5/console.sql" />
-    <entry file="file://$PROJECT_DIR$/test/bugtags/bugtags.sql">
+    <entry file="file://$PROJECT_DIR$/result/haha.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1590">
-          <caret line="106" column="59" lean-forward="false" selection-start-line="106" selection-start-column="59" selection-end-line="106" selection-end-column="59" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/bugtags/db_my.py">
+    <entry file="file://$PROJECT_DIR$/result/files/123妖妖321.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/其他脚本测试/MySelenium/normal/Safari.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" column="35" lean-forward="false" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+        <state relative-caret-position="255">
+          <caret line="15" column="80" lean-forward="false" selection-start-line="15" selection-start-column="80" selection-end-line="15" selection-end-column="80" />
+          <folding>
+            <element signature="e#24#54#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyScrapy/spiders/haha.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="23" column="46" lean-forward="false" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/selenium_auto.py">
+    <entry file="file://$PROJECT_DIR$/MyScrapy/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="13" lean-forward="false" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="13" />
+        <state relative-caret-position="270">
+          <caret line="35" column="36" lean-forward="false" selection-start-line="35" selection-start-column="36" selection-end-line="35" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/phantomjs.py">
+    <entry file="file://$PROJECT_DIR$/MyScrapy/spiders/JieKou.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="9" column="61" lean-forward="false" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="61" />
+        <state relative-caret-position="340">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyScrapy/spiders/Image.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="12" column="30" lean-forward="false" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyScrapy/spiders/mybasespider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="25" lean-forward="false" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+          <folding>
+            <element signature="e#24#37#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/result/files/西美美Elva.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyScrapy/spiders/douyu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="33" column="26" lean-forward="true" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
           <folding />
         </state>
       </provider>
