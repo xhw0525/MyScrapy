@@ -73,7 +73,7 @@ DOWNLOADER_MIDDLEWARES = {
 ITEM_PIPELINES = {
     # 'MyScrapy.pipelines.MyscrapyPipeline': 300,
     # 'MyScrapy.pipelines.MyscrapyFilePipeline': 400,
-    'MyScrapy.pipelines.MyscrapyDBPipeline': 300,
+    # 'MyScrapy.pipelines.MyscrapyDBPipeline': 300,
     'MyScrapy.pipelines.MyFilesPipeline': 301,
 
 }
