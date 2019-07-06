@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 import scrapy
-import mybasespider
+from MyScrapy.spiders.mybasespider import WebdriverSpider
 
-class BugtagsSpider(mybasespider.WebdriverSpider):
+class BugtagsSpider(WebdriverSpider):
     name = 'bugtags'
     allowed_domains = ['bugtags']
     start_urls = ['http://bugtags/']

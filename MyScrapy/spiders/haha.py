@@ -4,9 +4,9 @@ from scrapy import Request
 
 from MyScrapy.webdrivers import Webdriver
 from MyScrapy.items import MyscrapyItem
-import mybasespider
+from MyScrapy.spiders.mybasespider import WebdriverSpider
 
-class HahaSpider(mybasespider.WebdriverSpider):
+class HahaSpider(WebdriverSpider):
 
     name = 'haha'
     # allowed_domains = ['www.baidu.com']

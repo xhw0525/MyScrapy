@@ -3,9 +3,9 @@ import scrapy
 from scrapy import Request
 from MyScrapy.items import JieKouItem
 from MyScrapy.webdrivers import Webdriver
-import mybasespider
+from MyScrapy.spiders.mybasespider import WebdriverSpider
 
-class JiekouSpider(mybasespider.WebdriverSpider):
+class JiekouSpider(WebdriverSpider):
     name = 'JieKou'
     # allowed_domains = ['www.baidu.com']
     start_urls = ['http://devdoc.xiaoyouapp.cn/publics/apiList']
@@ -20,5 +20,5 @@ class JiekouSpider(mybasespider.WebdriverSpider):
         for a in lista:
             if a.xpath('div[2]/a/h5') and a.xpath('div[1]/h5/span') and a.xpath('div[2]/a/h5/text()').extract()[0].startswith('http'):
 
-                print '------->>>>>>>', a.xpath('div[1]/h5/span/text()').extract()[0].encode('utf-8')
-                print '------->>>>>>>', a.xpath('div[2]/a/h5/text()').extract()[0]
+                print ('------->>>>>>>', a.xpath('div[1]/h5/span/text()').extract()[0].encode('utf-8'))
+                print ('------->>>>>>>', a.xpath('div[2]/a/h5/text()').extract()[0])

@@ -12,8 +12,8 @@ import sqlite3
 import os
 import MyScrapy.settings as Settings
 
-reload(sys)
-sys.setdefaultencoding('utf8')
+# reload(sys)
+# sys.setdefaultencoding('utf8')
 
 class MyscrapyFilePipeline(object):
     def __init__(self):

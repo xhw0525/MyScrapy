@@ -3,9 +3,9 @@ import scrapy
 from MyScrapy.items import ImageaItem
 from MyScrapy.webdrivers import Webdriver
 from scrapy import Request
-import mybasespider
+from MyScrapy.spiders.mybasespider import WebdriverSpider
 
-class ImageSpider(mybasespider.WebdriverSpider):
+class ImageSpider(WebdriverSpider):
     name = 'image'
     # allowed_domains = ['douyu.com']
     start_urls = ['http://www.budejie.com/pic', ]

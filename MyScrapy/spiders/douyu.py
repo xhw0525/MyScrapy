@@ -3,9 +3,9 @@ import scrapy
 from scrapy import Request
 from MyScrapy.webdrivers import Webdriver
 from MyScrapy.items import ImageaItem
-import mybasespider
+from MyScrapy.spiders.mybasespider import WebdriverSpider
 import hashlib
-class DouyuSpider(mybasespider.WebdriverSpider):
+class DouyuSpider(WebdriverSpider):
     name = 'douyu'
     # allowed_domains = ['douyu.cn']
     start_urls = ['https://www.douyu.com/directory/game/yz']
